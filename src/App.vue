@@ -52,6 +52,37 @@ export default {
     line-height: 1.5;
   }
 
+  #app{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .big-chart, .small-chart {
+    width: 100%;
+    padding: 50px 10px;
+    border-radius: 15px;
+
+    background-color: white;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+  
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .big-chart h3, .small-chart h3 {
+    margin-bottom: 20px;
+  }
+
+  .big-chart__chart, .small-chart__chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   @media (min-width: 641px) {
     :root{
       font-size: 15px;
@@ -61,6 +92,9 @@ export default {
   @media (min-width: 1008px) {
     :root{
       font-size: 16px;
+    }
+    .big-chart, .small-chart {
+      padding: 50px 25px;
     }
   }
 </style>
