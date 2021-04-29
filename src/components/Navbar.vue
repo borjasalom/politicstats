@@ -10,7 +10,9 @@
     </div>
     <ul class='nav__list'>
       <li v-for="item in menu" :key="item.name" class="nav__item">
-        <router-link v-bind:to="item.route"> {{item.name}} </router-link> 
+        <router-link v-bind:to="item.route" class="nav__link"> 
+          {{item.name}} 
+        </router-link> 
       </li>
     </ul>
   </nav>
@@ -22,7 +24,7 @@
     data: function() {
       return {
         menu: [
-          { name: 'Temáticas', route: '/themes' },
+          { name: 'Temáticas', route: '/themes'},
           { name: 'Partidos', route: '/groups' },
           { name: 'Acerca', route: '/about'}
         ]
@@ -35,14 +37,13 @@
   .nav {
     width: 100%;
 
+    background-color: white;
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    
-    background-color: white;
-    /*border-bottom: 1px solid black;*/
   }
+
   .nav .nav__logo, .nav .nav__menu-button{
     padding: 20px 0;
   }
@@ -57,9 +58,6 @@
 
   .nav .nav__list {
     display: none;
-  }
-
-  .nav__list .nav__item {
     list-style: none;
   }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="small-chart">
-    <h3> {{ title }}</h3>
+    <h3 class="small-chart__title"> {{ title }}</h3>
     <VueApexCharts 
       height='300px'
       class="small-chart__chart"
@@ -10,14 +10,13 @@
 </template>
 
 <script>
-import VueApexCharts from 'vue-apexcharts'
+  import VueApexCharts from 'vue-apexcharts'
 
   export default {
     name: 'SmallChart',
     props: {
       title: String,
-      typeChart: String,
-      chartData: Object,
+      chartData: Array,
       chartOptions: Object
     },
     components: {
@@ -28,10 +27,10 @@ import VueApexCharts from 'vue-apexcharts'
 
 <style scoped>
   .small-chart {
-    margin-top: 25px;
+    margin-top: 50px;
   }
 
-  .small-chart__chart {
+  .small-chart .small-chart__chart {
     height: 300px;
   }
 

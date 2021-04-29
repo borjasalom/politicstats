@@ -1,6 +1,6 @@
 <template>
   <div class="big-chart">
-    <h3> {{ title }}</h3>
+    <h3 class="big-chart__title"> {{ title }}</h3>
     <VueApexCharts 
       height='500px'
       class="big-chart__chart"
@@ -10,23 +10,23 @@
 </template>
 
 <script>
-import VueApexCharts from 'vue-apexcharts'
+  import VueApexCharts from 'vue-apexcharts'
 
-export default {
-  name: 'BigChart',
-  props: {
-      title: String,
-      chartData: Array,
-      chartOptions: Object
-  },
-  components: {
-    VueApexCharts
-  },
-}
+  export default {
+    name: 'BigChart',
+    props: {
+        title: String,
+        chartData: Array,
+        chartOptions: Object
+    },
+    components: {
+      VueApexCharts
+    },
+  }
 </script>
 
 <style scoped>
-  .big-chart__chart{
+  .big-chart .big-chart__chart{
     height: 500px;
   }
 </style>

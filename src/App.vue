@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header hiddeHeader='false' />
     <router-view/>
   </div>
 </template>
@@ -31,7 +31,6 @@ export default {
     text-decoration: none;
     color: black
   }
-
 
   h1, h2, h3, h4, h5{
     font-weight: bold;
@@ -73,11 +72,13 @@ export default {
     text-align: center;
   }
 
-  .big-chart h3, .small-chart h3 {
+  .big-chart .big-chart__title, 
+  .small-chart .small-chart__title {
     margin-bottom: 20px;
   }
 
-  .big-chart__chart, .small-chart__chart{
+  .big-chart .big-chart__chart, 
+  .small-chart .small-chart__chart{
     display: flex;
     justify-content: center;
     align-items: center;
