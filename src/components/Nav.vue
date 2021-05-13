@@ -1,7 +1,7 @@
 <template>
   <nav class="nav">
     <router-link to="/">
-      <h5 class="nav__logo">POLITCSTATS</h5>
+      <h5 class="nav__logo">Parliamentary Questions</h5>
     </router-link> 
     <div class="nav__menu-button">
       <div class="nav__menu-line"></div>
@@ -20,12 +20,12 @@
 
 <script>
   export default {
-    name: 'Navbar',
+    name: 'Nav',
     data: function() {
       return {
         menu: [
-          { name: 'Temáticas', route: '/themes'},
-          { name: 'Partidos', route: '/groups' },
+          { name: 'Temáticas', route: '/topics'},
+          { name: 'Grupos', route: '/groups' },
           { name: 'Acerca', route: '/about'}
         ]
       }
@@ -36,11 +36,9 @@
 <style scoped>
   .nav {
     width: 100%;
-
-    background-color: white;
-
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -62,6 +60,13 @@
   }
 
   @media (min-width: 1008px) {
+    .nav {
+      max-width: 1024px;
+      padding: 0 50px;
+
+       justify-content: space-between;
+    }
+
     .nav .nav__menu-button{
       display: none;
     }

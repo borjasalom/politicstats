@@ -1,33 +1,47 @@
 <template>    
-  <div class="home">
-    <div class="home__big-chart">
-      <BigChart 
-        title='Top 10: Temáticas' 
-        v-bind:chartData='themesData'
-        v-bind:chartOptions='themesOptions'/>
-    </div>
-    <div class="home__small-chart">
-      <SmallChart
-        title='Generos Diputados' 
-        v-bind:chartData='genderData'
-        v-bind:chartOptions='genderOptions'/>
-      <SmallChart
-        title='Edades Diputados' 
-        v-bind:chartData='agesData'
-        v-bind:chartOptions='agesOptions'/>
-    </div>
-  </div>
+  <main class="main">
+    <Header 
+      :title='title' 
+      :subTitle='subTitle' 
+      :description='description'/>
+    
+    <Section 
+      title="¿Sobre que temáticas preguntar más los diputados?"
+      :chartData='themesData'
+      :chartOptions='themesOptions'
+    />
+
+    <Section 
+      title="¿Que porcentage de Mujeres y Hombres hay en el congreso?"
+      :chartData='genderData'
+      :chartOptions='genderOptions'
+    />
+
+    <Section 
+      title="¿En que rango de edades hay más diputados?"
+      :chartData='agesData'
+      :chartOptions='agesOptions'
+    />
+  </main>
 </template>
 
 <script>
-  import BigChart from '@/components/BigChart.vue'
-  import SmallChart from '@/components/SmallChart.vue'
+  import Header from '@/components/Header.vue'
+  import Section from '@/components/Section.vue'
+  
   import { themesHome, genderHome, agesHome } from '@/assets/js/charts.js'
+
 
   export default {
     name: 'Home', 
     data: function(){
       return {
+        title: 'Preguntas Parlamentarias',
+        subTitle: 'Gráficas sobre',
+        description: 'Recopilamos datos oficiales sobre cada una de las preguntas que realizan\
+        los diputados al gobierno en el parlamento y te los facilitamos con gráficas de\
+        forma totalmente neutral.',
+
         themesData: themesHome.series,
         themesOptions: themesHome.chartOptions,
 
@@ -39,36 +53,22 @@
       } 
     },
     components: {
-      BigChart,
-      SmallChart,
+      Header,
+      Section,
     },
   }
 </script>
 
 <style scoped>
-  .home{
-    max-width: 1024px;
-    padding: 50px 0;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .home__big-chart, .home__small-chart{
-    width: 90%;
-  }
-  
-  .home__small-chart{
+  .main {
+    width: 100%;
     display: flex;
     flex-flow: column;
-  }
+    align-items: center;
 
+    background-color: var(--light-grey);
+  }
   @media (min-width: 1008px) {
-    .home__small-chart{
-      flex-flow: row;
-      justify-content: space-between;
-    }
+    
   } 
 </style>

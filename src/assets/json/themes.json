@@ -1,0 +1,163 @@
+[
+  {
+    "id": "c1140feb60ab2e93513b7a4c9d6e48da81001f73",
+    "name": "Calidad democrática",
+    "shortname": "Democracia",
+    "description": "Defender el espacio democrático y ampliar el conocimiento por la ciudadanía de la actividad de los poderes públicos, regulando y garantizando el derecho de acceso a la información pública y protegiendo las garantías ciudadanas básicas, promueven su capacidad de decidir y el desarrollo de una conciencia ciudadana y democrática plena.",
+    "index": "0"
+  },
+  {
+    "id": "cb333d52716d99baa3c2ae41e7faf4c113dbd9ec",
+    "name": "Cambio climático y política energética",
+    "shortname": "Energía y clima",
+    "description": "El cambio climático tiene dimensión global, pero sus impactos más directos y sus consecuencias más graves se dan en los países en desarrollo. Una respuesta global y eficaz debe abordar tanto la dimensión de adaptación como la de mitigación, lo que exige compatibilizar compromisos ambiciosos de financiación, con una apuesta decidida por modelos sostenibles de producción, transporte y consumo.",
+    "index": "1"
+  },
+  {
+    "id": "b203e205041beffd4a64a587326fa0bb108ee07a",
+    "name": "Colectivo LGTBI",
+    "shortname": "LGTBI",
+    "description": "Las personas LGTBI son uno de los colectivos que mayor discriminación y violencia sufre tanto a nivel social como institucional enfrentándose a múltiples barreras en el acceso a sanidad, empleo y educación no garantizando los derechos de este colectivo.",
+    "index": "2"
+  },
+  {
+    "id": "25ff2c6b7a6784a6195ae268ec713fe7b68b49ab",
+    "name": "Comercio internacional",
+    "shortname": "Comercio internacional",
+    "description": "El comercio es un parámetro de un orden de magnitud mayor que cualquier otro del sistema económico internacional. Tiene una influencia decisiva en la generación y destrucción de oportunidades económicas y sociales para los países. Las reglas, principios y acuerdos del sistema comercial internacional son una pieza fundamental del problema y también de la solución de muchos de los actuales retos globales del desarrollo y de la lucha contra la pobreza, en especial en los países en vías de desarrollo.",
+    "index": "3"
+  },
+  {
+    "id": "10579b9cd03e551bd88c2e82982ab4808683f6b3",
+    "name": "Conductas adictivas",
+    "shortname": "Adicciones",
+    "description": "Las personas en situación de drogodependencia, ludopatía u otras conductas adictivas se encuentran habitualmente en riesgo de exclusión social, por lo que las medidas de atención, de inserción en la sociedad y de fomento de sus capacidades reducen su situación de vulnerabilidad y fomentan su dignidad como personas.",
+    "index": "4"
+  },
+  {
+    "id": "7cff317a00e235ade28db27c20e53e2af9a2be55",
+    "name": "Conflictos internacionales y construcción de paz",
+    "shortname": "Conflictos y paz",
+    "description": "La satisfacción de las necesidades básicas y la seguridad son dos aspiraciones universales y la base sobre la que edificar un mundo más justo y sostenible. Por ello, la lucha contra la pobreza, la consecución de un entorno pacífico y seguro y la instauración de un orden internacional justo, de paz, estabilidad y respeto de los derechos humanos son dos caras de una misma moneda.",
+    "index": "5"
+  },
+  {
+    "id": "46f9a8807e6d7848f9d13adf8072d812d3bbc207",
+    "name": "Cooperación al desarrollo",
+    "shortname": "Cooperación al desarrollo",
+    "description": "Una política de Cooperación para el desarrollo coherente, de calidad y en la cantidad suficiente contribuye decisivamente a la lucha contra los grandes retos globales de nuestra era – el hambre, la pobreza, las desigualdades o el cambio climático –; a la vez que constituye un elemento imprescindible de la política exterior de una potencia media como España.",
+    "index": "6"
+  },
+  {
+    "id": "036a9cbd68bfeec60ee7d4a537bf5b5c9ade9d52",
+    "name": "Democracia y derechos en la era digital",
+    "shortname": "Derechos digitales",
+    "description": "La irrupción de internet en nuestras vidas es completa, la tecnología ha llegado para quedarse y no sólo ha modificado la manera en la que accedemos a la información sino también la manera en la que nos relacionamos con otras personas y con la política. Estos cambios han comenzado a afectar nuestros derechos como ciudadanos y ciudadanas y exigen de respuestas políticas para garantizar nuestras libertades.",
+    "index": "7"
+  },
+  {
+    "id": "f7542aa6aee095b9dd421d76d3559086beb575dd",
+    "name": "Dependencia",
+    "shortname": "Dependencia",
+    "description": "Garantizar los derechos de las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, precisan de atención para realizar las actividades básicas de la vida diaria es imprescindible para evitar el riesgo de exclusión social.",
+    "index": "8"
+  },
+  {
+    "id": "c77e9b86d8a58d47f7e62469a7352fcfa2a0b647",
+    "name": "Educación",
+    "shortname": "Educación",
+    "description": "Una educación pública, inclusiva y de calidad es esencial para acabar con las desigualdades sociales, garantizar la dignidad de las personas y promover un modelo de sociedad justo y equitativo. La educación es un factor que incide de forma determinante en el riesgo de vulnerabilidad social en la que se encuentran muchas familias y en sus posibilidades de superarla.",
+    "index": "9"
+  },
+  {
+    "id": "e0e3253c6b2dfbce856d2e61ec4749e3bb0be817",
+    "name": "Empleo",
+    "shortname": "Empleo",
+    "description": "El trabajo ha sido siempre un elemento crucial para la cohesión y la inclusión social. Pero a día de hoy, tener empleo ya no es el único elemento diferencial entre la inclusión y la exclusión. La precariedad en el empleo genera, igualmente, exclusión y pobreza y su combate debe ser una prioridad para las políticas públicas actuales.",
+    "index": "10"
+  },
+  {
+    "id": "8d365545bd217d5909d7c1fe042f63053882a136",
+    "name": "Fiscalidad",
+    "shortname": "Fiscalidad",
+    "description": "Una fiscalidad justa es un pilar imprescindible para lograr una sociedad más cohesionada, consolidar el Estado de Bienestar, impulsar la solidaridad internacional e implementar las políticas públicas necesarias para hacer frente a los retos actuales de nuestra sociedad. También debe convertirse en una prioridad para las relaciones con los países en desarrollo, para lo cual son imprescindibles la lucha contra los paraísos fiscales, la evasión y elusión fiscal y la opacidad del sistema financiero internacional.",
+    "index": "11"
+  },
+  {
+    "id": "e5ff5003f03a87b0856e2c3b47430be37f92af0a",
+    "name": "Igualdad de género",
+    "shortname": "Igualdad de género",
+    "description": "El 70% de las personas que viven en situación de pobreza en el mundo son mujeres, fruto de la situación de subordinación a la que se relega a la mujer en la sociedad. Es necesario continuar con el desarrollo de acciones positivas que equilibren estas desigualdades, orientadas a alcanzar una igualdad plena de oportunidades en el empleo, la conciliación de la vida laboral y familiar, la participación política y la protección de los derechos de las víctimas de violencia de género.",
+    "index": "12"
+  },
+  {
+    "id": "7542436968a72185c3a7c33ce40bec07b734f09d",
+    "name": "Infancia",
+    "shortname": "Infancia",
+    "description": "Todo compromiso de reducción de la pobreza y de promoción y defensa de los derechos de la infancia debe tener en cuenta factores como la educación, la salud y la alimentación, así como otras actividades que fomenten su desarrollo pleno y el de sus familias.",
+    "index": "13"
+  },
+  {
+    "id": "c03bd478f61d7d2139e2f16c118a0b5003e31bd0",
+    "name": "Migraciones",
+    "shortname": "Migraciones",
+    "description": "La intensidad de los flujos migratorios se ha acelerado en la última década y la inmigración irregular se lleva a cabo por vías cada vez más peligrosas. Una vez en nuestro país, atajar la vulneración de los derechos fundamentales de las personas migrantes es imprescindible para evitar que se vean abocados a situaciones de exclusión social. Por otro lado, la emigración española está en continuo ascenso y son esenciales políticas públicas que defiendan los derechos e intereses de los migrantes en el extranjero y promuevan oportunidades de retorno.",
+    "index": "14"
+  },
+  {
+    "id": "e335dc538758a8922161b293caf72cc4555a5780",
+    "name": "Personas con discapacidad",
+    "shortname": "Discapacidad",
+    "description": "Las personas con discapacidad constituyen uno de los grupos que sufren mayor discriminación en cuanto a accesibilidad, empleo, educación e igualdad de derechos, por lo que deben ser una prioridad para cualquier estrategia de inclusión de colectivos vulnerables.",
+    "index": "15"
+  },
+  {
+    "id": "ef4374b5e38438ac964bcb10ff341fd6ffa038e6",
+    "name": "Personas mayores",
+    "shortname": "Mayores",
+    "description": "La atención a la salud física y mental de las personas mayores y sus vínculos afectivos hacen que mejore su calidad de vida, enriqueciendo al mismo tiempo al conjunto de la sociedad. Las prestaciones por parte de las administraciones públicas son esenciales para el desarrollo de estas medidas.",
+    "index": "16"
+  },
+  {
+    "id": "9c95bba13c80e6142d9996a45ebf2f06052f1182",
+    "name": "Personas sin hogar",
+    "shortname": "Personas sin hogar",
+    "description": "Las personas sin hogar se encuentran en una situación extrema de vulnerabilidad y exclusión social. Estas personas están en un proceso de pérdida del nicho social, afectivo y personal que afecta directamente a su desarrollo humano y requiere de políticas específicas para reducir su situación de vulnerabilidad.",
+    "index": "17"
+  },
+  {
+    "id": "35fd64985ee1d862dab5f41b0c4c2c5075ef9691",
+    "name": "Población gitana",
+    "shortname": "Población gitana",
+    "description": "La discriminación de la comunidad gitana, afectada por el rechazo, la marginación y la privación material, afecta a la garantía de sus derechos más fundamentales. Para reducir esta brecha de desigualdad se deben abordar sus necesidades específicas, así como promover políticas públicas que aborden problemáticas generales –educación, empleo, sanidad, vivienda, etc. – cuyos efectos también les afectan.",
+    "index": "18"
+  },
+  {
+    "id": "d8dc329a58345c93f2d41d4f349d87cdb0e8bbbe",
+    "name": "Población reclusa",
+    "shortname": "Población reclusa",
+    "description": "El sistema penitenciario en España está orientado a la reeducación y la reinserción social del colectivo recluso. No obstante, las problemáticas – propias y asociadas – de este colectivo hacen que se encuentren en una situación de especial vulnerabilidad en cuanto a su inclusión y bienestar social.",
+    "index": "19"
+  },
+  {
+    "id": "458986a70b578babcfe64aef1dad667e7a781326",
+    "name": "Protección social",
+    "shortname": "Protección social",
+    "description": "Los sistemas de protección social permiten a las personas reaccionar frente a imprevistos de diversa índole y controlar ciertos niveles de riesgo o privación considerados inaceptables en la sociedad. Al mismo tiempo contribuyen a la redistribución de la riqueza y son garantes de la cohesión social.",
+    "index": "20"
+  },
+  {
+    "id": "c792233c88153d3db178c624f2b0c64e5aa91338",
+    "name": "Sanidad",
+    "shortname": "Sanidad",
+    "description": "El acceso a una sanidad pública, universal y de calidad es un requisito indispensable para la dignidad de las personas. Además, es un factor esencial para garantizar la equidad y evitar la exclusión social de las personas y colectivos que viven en situación de especial vulnerabilidad.",
+    "index": "21"
+  },
+  {
+    "id": "1aa3723058190cb00a6683da311ba49d480000e4",
+    "name": "Vivienda",
+    "shortname": "Vivienda",
+    "description": "El derecho de acceso a una vivienda protege una necesidad básica de las personas, imprescindible para vivir una vida con dignidad y seguridad. La ausencia de ésta afecta al desarrollo pleno de los derechos de las personas y a las necesidades de las familias.",
+    "index": "22"
+  }
+]

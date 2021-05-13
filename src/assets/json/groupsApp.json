@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Grupo Parlamentario Ciudadanos",
+    "shortname": "GCs",
+    "deputies": 11,
+    "gender": {
+      "male": 6,
+      "female": 5
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 0,
+      "ages35_44": 6,
+      "ages45_54": 3,
+      "ages55More": 2,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 180
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 87
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 57
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 51
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 42
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 31
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 27
+      },
+      {
+        "name": "Personas con discapacidad",
+        "shortname": "Discapacidad",
+        "numQuestions": 27
+      },
+      {
+        "name": "Personas mayores",
+        "shortname": "Mayores",
+        "numQuestions": 22
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 21
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común",
+    "shortname": "GCUP-EC-GC",
+    "deputies": 38,
+    "gender": {
+      "male": 17,
+      "female": 21
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 4,
+      "ages35_44": 15,
+      "ages45_54": 8,
+      "ages55More": 11,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 123
+      },
+      {
+        "name": "Vivienda",
+        "shortname": "Vivienda",
+        "numQuestions": 61
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 59
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 53
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 52
+      },
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 45
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 36
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 17
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 12
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 9
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Euskal Herria Bildu",
+    "shortname": "GEH Bildu",
+    "deputies": 5,
+    "gender": {
+      "male": 3,
+      "female": 2
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 0,
+      "ages35_44": 1,
+      "ages45_54": 1,
+      "ages55More": 3,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 73
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 69
+      },
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 56
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 43
+      },
+      {
+        "name": "Conflictos internacionales y construcción de paz",
+        "shortname": "Conflictos y paz",
+        "numQuestions": 43
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 30
+      },
+      {
+        "name": "Comercio internacional",
+        "shortname": "Comercio internacional",
+        "numQuestions": 11
+      },
+      {
+        "name": "Democracia y derechos en la era digital",
+        "shortname": "Derechos digitales",
+        "numQuestions": 11
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 11
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 11
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Mixto",
+    "shortname": "GMx",
+    "deputies": 10,
+    "gender": {
+      "male": 8,
+      "female": 2
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 0,
+      "ages35_44": 4,
+      "ages45_54": 1,
+      "ages55More": 5,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 48
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 37
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 37
+      },
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 29
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 18
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 12
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 10
+      },
+      {
+        "name": "Personas sin hogar",
+        "shortname": "Personas sin hogar",
+        "numQuestions": 8
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 6
+      },
+      {
+        "name": "Conflictos internacionales y construcción de paz",
+        "shortname": "Conflictos y paz",
+        "numQuestions": 5
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Plural",
+    "shortname": "GPlu",
+    "deputies": 14,
+    "gender": {
+      "male": 8,
+      "female": 6
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 1,
+      "ages35_44": 4,
+      "ages45_54": 3,
+      "ages55More": 6,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 306
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 152
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 92
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 68
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 63
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 62
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 55
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 54
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 43
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 38
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Popular",
+    "shortname": "GP",
+    "deputies": 90,
+    "gender": {
+      "male": 51,
+      "female": 39
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 4,
+      "ages35_44": 23,
+      "ages45_54": 31,
+      "ages55More": 32,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 3962
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 651
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 566
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 466
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 373
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 321
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 286
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 284
+      },
+      {
+        "name": "Personas mayores",
+        "shortname": "Mayores",
+        "numQuestions": 268
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 251
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Republicano",
+    "shortname": "GR",
+    "deputies": 13,
+    "gender": {
+      "male": 6,
+      "female": 7
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 2,
+      "ages35_44": 2,
+      "ages45_54": 5,
+      "ages55More": 4,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 46
+      },
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 40
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 35
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 35
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 27
+      },
+      {
+        "name": "Conflictos internacionales y construcción de paz",
+        "shortname": "Conflictos y paz",
+        "numQuestions": 24
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 15
+      },
+      {
+        "name": "Cooperación al desarrollo",
+        "shortname": "Cooperación al desarrollo",
+        "numQuestions": 14
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 13
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 12
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Socialista",
+    "shortname": "GS",
+    "deputies": 141,
+    "gender": {
+      "male": 73,
+      "female": 68
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 10,
+      "ages35_44": 32,
+      "ages45_54": 49,
+      "ages55More": 50,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 552
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 269
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 229
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 224
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 175
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 151
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 94
+      },
+      {
+        "name": "Vivienda",
+        "shortname": "Vivienda",
+        "numQuestions": 69
+      },
+      {
+        "name": "Personas con discapacidad",
+        "shortname": "Discapacidad",
+        "numQuestions": 45
+      },
+      {
+        "name": "Comercio internacional",
+        "shortname": "Comercio internacional",
+        "numQuestions": 32
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario VOX",
+    "shortname": "GVOX",
+    "deputies": 54,
+    "gender": {
+      "male": 39,
+      "female": 15
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 4,
+      "ages35_44": 9,
+      "ages45_54": 20,
+      "ages55More": 21,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 6531
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 2037
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 1125
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 1048
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 914
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 858
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 591
+      },
+      {
+        "name": "Democracia y derechos en la era digital",
+        "shortname": "Derechos digitales",
+        "numQuestions": 524
+      },
+      {
+        "name": "Población reclusa",
+        "shortname": "Población reclusa",
+        "numQuestions": 499
+      },
+      {
+        "name": "Protección social",
+        "shortname": "Protección social",
+        "numQuestions": 465
+      }
+    ]
+  },
+  {
+    "name": "Grupo Parlamentario Vasco (EAJ-PNV)",
+    "shortname": "EAJ-PNV",
+    "deputies": 6,
+    "gender": {
+      "male": 4,
+      "female": 2
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 0,
+      "ages35_44": 0,
+      "ages45_54": 2,
+      "ages55More": 4,
+      "unknown": 0
+    },
+    "topics": [
+      {
+        "name": "Sanidad",
+        "shortname": "Sanidad",
+        "numQuestions": 42
+      },
+      {
+        "name": "Empleo",
+        "shortname": "Empleo",
+        "numQuestions": 14
+      },
+      {
+        "name": "Cambio climático y política energética",
+        "shortname": "Energía y clima",
+        "numQuestions": 5
+      },
+      {
+        "name": "Migraciones",
+        "shortname": "Migraciones",
+        "numQuestions": 5
+      },
+      {
+        "name": "Democracia y derechos en la era digital",
+        "shortname": "Derechos digitales",
+        "numQuestions": 4
+      },
+      {
+        "name": "Educación",
+        "shortname": "Educación",
+        "numQuestions": 4
+      },
+      {
+        "name": "Conductas adictivas",
+        "shortname": "Adicciones",
+        "numQuestions": 3
+      },
+      {
+        "name": "Calidad democrática",
+        "shortname": "Democracia",
+        "numQuestions": 2
+      },
+      {
+        "name": "Igualdad de género",
+        "shortname": "Igualdad de género",
+        "numQuestions": 2
+      },
+      {
+        "name": "Infancia",
+        "shortname": "Infancia",
+        "numQuestions": 2
+      }
+    ]
+  }
+]

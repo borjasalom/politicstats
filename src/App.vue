@@ -1,27 +1,34 @@
 <template>
   <div id="app">
-    <Header hiddeHeader='false' />
+    <Nav />
     <router-view/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
+import Nav from '@/components/Nav.vue'
 
 export default {
-  name: 'Home',
+  name: 'App',
   components: {
-    Header
+    Nav
   }
 }
 </script>
 
 <style>
   :root{
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
-    background-color: #F2F2F2;
+
+    --primary-color: #6C63FF;
+    --secondary-color: #FF6584;
+    --light-color: #FFFFFF;
+    --dark-color: #2F2E41;
+    --light-grey: #F2F2F2;
+    --medium-grey: #E6E6E6;
+    --dark-grey: #CCCCCC;
   }
 
   *{
@@ -29,7 +36,7 @@ export default {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black
+    color: var(--dark-color)
   }
 
   h1, h2, h3, h4, h5{
@@ -57,31 +64,70 @@ export default {
     align-items: center;
   }
 
-  .big-chart, .small-chart {
+  /* 
+    Themes and Groups 
+    common styles
+  */
+
+  .groups, 
+  .themes{
     width: 100%;
-    padding: 50px 10px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .themes__container, 
+  .groups__container{
+    max-width: 1024px;
+    padding: 50px;
     border-radius: 15px;
 
     background-color: white;
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
-  
+
     display: flex;
     flex-flow: column;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .big-chart .big-chart__title, 
-  .small-chart .small-chart__title {
-    margin-bottom: 20px;
-  }
-
-  .big-chart .big-chart__chart, 
-  .small-chart .small-chart__chart{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+  }
+
+  .themes__title,
+  .groups__title {
+    margin-bottom: 50px;
+  }
+
+  .themes__list,
+  .groups__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .themes__topic,
+  .groups__party{
+    width: 200px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 0px 5px 25px;
+
+    background-color: rgba(0,0,0,1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .themes__topic p,
+  .groups__party p{
+    color: white
+  }
+
+  .themes__topic img,
+  .groups__party img{
+    width: 20px;
   }
 
   @media (min-width: 641px) {
@@ -93,9 +139,6 @@ export default {
   @media (min-width: 1008px) {
     :root{
       font-size: 16px;
-    }
-    .big-chart, .small-chart {
-      padding: 50px 25px;
     }
   }
 </style>

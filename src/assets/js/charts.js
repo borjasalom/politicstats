@@ -1,84 +1,97 @@
+import json from '../json/home.json'
+
+let primaryColor = "#6C63FF";
+let darkColor = '#2F2E41';
+
+let topicsData = [];
+let topicsLabel = [];
+
+for (let i = 0; i < 10; i++) {
+  topicsData.push(json.topics[i].numQuestions);
+  topicsLabel.push(json.topics[i].shortname);
+}
+
+let genderData = [
+  json.gender.female,
+  json.gender.male
+];
+
+let ages = [
+  json.ages.ages25_34,
+  json.ages.ages35_44,
+  json.ages.ages45_54,
+  json.ages.ages55More,
+]
+
 let themesHome = {
   series: [{
-    data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+    data: topicsData
   }],
   chartOptions: {
     chart: {
       type: 'bar',
-      toolbar: {
-        show: false
-      }
+      fontFamily: 'Roboto, sans-serif',
+      foreColor: darkColor,
+      redrawOnWindowResize: true,
+      toolbar: { show: false },
+      width: '100%'
     },
-    plotOptions: {
-      bar: {
-        barHeight: '100%',
-        distributed: true,
-        horizontal: true,
-        dataLabels: {
-          position: 'bottom'
-        },
-      }
-    },
-    
-    legend: {
-      show: false
-    },
-    colors: ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e',
-      '#f48024', '#69d2e7'
-    ],
-    dataLabels: {
-      enabled: true,
-      textAnchor: 'start',
-      style: {
-        colors: ['black'],
-      },
-      formatter: function (val, opt) {
-        return opt.w.globals.labels[opt.dataPointIndex]
-      },
-      offsetX: 0,
-    },
-    stroke: {
-      width: 1,
-      colors: ['#fff']
-    },
-    xaxis: {
-      categories: ['Democracia', 'Energía y clima', 'LGTBI', 'Comercio internacional', 'Adicciones', 'Conflictos y paz', 'Cooperación al desarrollo',
-        'Derechos digitales', 'Dependencia', 'Empleo'
-      ],
-    },
-    yaxis: {
+    colors: [primaryColor],
+    dataLabels: { enabled: false },
+    legend: { show: false },
+    stroke: { show: false },
+    xaxis: { 
+      categories: topicsLabel,
       labels: {
-        show: false
-      }
+        rotate: -45,
+        offsetY: 5,
+      },
+    },
+    yaxis: { 
+      tickAmount: 11,
+      title: {
+        text: 'Numero de Preguntas',
+      },
     },
     tooltip: {
-      theme: 'light',
-      x: {
-        show: false
-      },
+      x: { show: false },
       y: {
         title: {
-          formatter: function () {
-            return ''
-          }
+          formatter: () => 'Numero Preguntas:'
         }
-      }
-    }
+      },
+      marker: {
+        show: false,
+      },
+    },
+    responsive: [{
+      breakpoint: 641,
+      options: {
+        xaxis: { 
+          categories: topicsLabel,
+          labels: {
+            rotate: -90,
+            offsetY: 0,
+          }
+        
+        },
+      },
+    }]
   },
 };
 
 let genderHome = {
-  series: [228, 152],
+  series: genderData,
   chartOptions: {
     chart: {
-      type: 'pie',
+      type: 'donut',
       fontfamily: 'Roboto, sans-serif',
       toolbar: {
         show: false
       }
     },
-    colors: ['#33b2df', '#d4526e'],
-    labels: ['Hombres', 'Mujeres',],
+    colors: ['#FF6584', "#6C63FF", ],
+    labels: ['Mujeres', 'Hombres'],
 
     dataLabels: {
       enabled: true,
@@ -92,13 +105,28 @@ let genderHome = {
     legend: {
       show: true,
       position: 'bottom',
-    }
+      fontFamily: 'Roboto, sans-serif',
+      fontSize: '16px',
+      inverseOrder: true,
+      itemMargin: {
+        horizontal: 10,
+        vertical: 10
+      },
+    },
+    tooltip: {
+      theme: "light",
+      fillSeriesColor: false,
+      x: { show: false },
+      marker: {
+        show: false,
+      },
+    },
   },
 }
 
 let agesHome = {
   series: [{
-    data: [21, 45, 34, 12]
+    data: ages
   }],
   chartOptions: {
     chart: {
@@ -110,7 +138,7 @@ let agesHome = {
         show: false
       }
     },
-    colors: ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B'],
+    colors: ["#6C63FF"],
     plotOptions: {
       bar: {
         columnWidth: '45%',
@@ -126,11 +154,15 @@ let agesHome = {
     tooltip:{
       enabled: false
     },
+    yaxis: {
+      title: {
+        text: 'Numero Diputados',
+    },
+    },
     xaxis: {
-      categories: ['15 - 24', '25 - 34', '35 - 54', '55 <'],
+      categories: ['25 - 34', '35 - 44', '45 - 55', '55 <'],
       labels: {
         style: {
-          colors: ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B'],
           fontSize: '12px'
         }
       }

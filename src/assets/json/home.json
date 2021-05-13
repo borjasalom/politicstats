@@ -1,0 +1,66 @@
+{
+  "gender": {
+    "male": 215,
+    "female": 167
+  },
+  "ages": {
+    "ages18_24": 0,
+    "ages25_34": 25,
+    "ages35_44": 96,
+    "ages45_54": 123,
+    "ages55More": 138,
+    "unknown": 0
+  },
+  "topics": [
+    {
+      "name": "Sanidad",
+      "shortname": "Sanidad",
+      "numQuestions": 23126
+    },
+    {
+      "name": "Empleo",
+      "shortname": "Empleo",
+      "numQuestions": 6982
+    },
+    {
+      "name": "Infancia",
+      "shortname": "Infancia",
+      "numQuestions": 3863
+    },
+    {
+      "name": "Igualdad de género",
+      "shortname": "Igualdad de género",
+      "numQuestions": 3637
+    },
+    {
+      "name": "Migraciones",
+      "shortname": "Migraciones",
+      "numQuestions": 2701
+    },
+    {
+      "name": "Protección social",
+      "shortname": "Protección social",
+      "numQuestions": 2598
+    },
+    {
+      "name": "Calidad democrática",
+      "shortname": "Democracia",
+      "numQuestions": 2222
+    },
+    {
+      "name": "Cambio climático y política energética",
+      "shortname": "Energía y clima",
+      "numQuestions": 2196
+    },
+    {
+      "name": "Población reclusa",
+      "shortname": "Población reclusa",
+      "numQuestions": 2150
+    },
+    {
+      "name": "Educación",
+      "shortname": "Educación",
+      "numQuestions": 2081
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Themes from '../views/Themes.vue'
 import Groups from '../views/Groups.vue'
 import About from '../views/About.vue'
+import Topic from '../views/Topic.vue'
 
 Vue.use(VueRouter)
 
@@ -14,9 +15,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/themes',
-    name: 'Theme',
+    path: '/topics',
+    name: 'Topics',
     component: Themes
+  },
+  {
+    path: '/topics/:topic',
+    name: 'Topic',
+    component: Topic
   },
   {
     path: '/groups',
