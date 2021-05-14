@@ -1,7 +1,9 @@
 [
   {
     "name": "Grupo Parlamentario Ciudadanos",
-    "shortname": "GCs",
+    "shortname": "CS",
+    "index": 0,
+    "color": "#FF6D23",
     "deputies": 11,
     "gender": {
       "male": 6,
@@ -70,7 +72,9 @@
   },
   {
     "name": "Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común",
-    "shortname": "GCUP-EC-GC",
+    "shortname": "UP",
+    "index": 1,
+    "color": "#724C96",
     "deputies": 38,
     "gender": {
       "male": 17,
@@ -139,7 +143,9 @@
   },
   {
     "name": "Grupo Parlamentario Euskal Herria Bildu",
-    "shortname": "GEH Bildu",
+    "shortname": "Bildu",
+    "index": 2,
+    "color": "#99C445",
     "deputies": 5,
     "gender": {
       "male": 3,
@@ -208,7 +214,9 @@
   },
   {
     "name": "Grupo Parlamentario Mixto",
-    "shortname": "GMx",
+    "shortname": "Grupo Mixto",
+    "index": 3,
+    "color": "#6B666B",
     "deputies": 10,
     "gender": {
       "male": 8,
@@ -277,7 +285,9 @@
   },
   {
     "name": "Grupo Parlamentario Plural",
-    "shortname": "GPlu",
+    "shortname": "Grupo Plural",
+    "index": 4,
+    "color": "#201D1D",
     "deputies": 14,
     "gender": {
       "male": 8,
@@ -346,7 +356,9 @@
   },
   {
     "name": "Grupo Parlamentario Popular",
-    "shortname": "GP",
+    "shortname": "PP",
+    "index": 5,
+    "color": "#2F8BBC",
     "deputies": 90,
     "gender": {
       "male": 51,
@@ -415,7 +427,9 @@
   },
   {
     "name": "Grupo Parlamentario Republicano",
-    "shortname": "GR",
+    "shortname": "ERC",
+    "index": 6,
+    "color": "#F1AA2B",
     "deputies": 13,
     "gender": {
       "male": 6,
@@ -484,7 +498,9 @@
   },
   {
     "name": "Grupo Parlamentario Socialista",
-    "shortname": "GS",
+    "shortname": "PSOE",
+    "index": 7,
+    "color": "#E31A22",
     "deputies": 141,
     "gender": {
       "male": 73,
@@ -553,7 +569,9 @@
   },
   {
     "name": "Grupo Parlamentario VOX",
-    "shortname": "GVOX",
+    "shortname": "VOX",
+    "index": 8,
+    "color": "#50BB3C",
     "deputies": 54,
     "gender": {
       "male": 39,
@@ -622,7 +640,9 @@
   },
   {
     "name": "Grupo Parlamentario Vasco (EAJ-PNV)",
-    "shortname": "EAJ-PNV",
+    "shortname": "PNV",
+    "index": 9,
+    "color": "#55796F",
     "deputies": 6,
     "gender": {
       "male": 4,

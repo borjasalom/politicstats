@@ -1,43 +1,36 @@
 <template>
-  <div class="groups">
-    <div class="groups__container">
-      <h2 class="groups__title">Grupos Parlamentarios</h2>
-      <div class="groups__list">
-        <div 
-          class="groups__party" 
-          v-for="party in groupsList" 
-          :key='party'>
-            <p>{{party}}</p>
-            <img src="@/assets/img/arrow.svg" alt="Arrow forward IOS icon">
-        </div>
-      </div>
-    </div>
-  </div>
+  <main class="main">
+    <SectionList 
+      :list="groupsList" 
+      parentPaht='/groups/'/>
+    <SectionChart 
+      title="Numero de diputados de cada Grupo Parlamentario"
+      :chartData='groupsData'
+      :chartOptions='groupsOptions' />
+  </main>
 </template>
 
 <script>
-  const axios = require('axios');
+  import groupsList from '@/assets/json/groupsApp.json'
+  import { groupsChart } from '@/assets/js/charts.js'  
+  import SectionList from '@/components/SectionList.vue'
+  import SectionChart from '@/components/SectionChart.vue'
+  
 
   export default {
     name: 'Groups', 
     data: function(){
       return {
-        groupsList: [],
+        groupsList: groupsList,
+
+        groupsData: groupsChart.series,
+        groupsOptions: groupsChart.chartOptions,
       }
     },
-    mounted () {
-    axios
-      .get('https://api.tipiciudadano.es/parliamentary-groups/')
-      .then(response => {
-        for (let party of response.data) {
-          this.groupsList.push(party.shortname)
-        }
-        return this.groupsList;
-      })
-  }
+    components: {
+      SectionChart,
+      SectionList
+    },
   }
 </script>
 
-<style scoped>
-  
-</style>

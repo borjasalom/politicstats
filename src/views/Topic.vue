@@ -1,25 +1,15 @@
 <template>    
-  <div class="home">
-    
-  </div>
+  <main class="main">
+    <h1>SLKDFLAHSJFHSALJ</h1>
+  </main>
 </template>
 
 <script>
-
-  import { themesHome, genderHome, agesHome } from '@/assets/js/charts.js'
 
   export default {
     name: 'Home', 
     data: function(){
       return {
-        themesData: themesHome.series,
-        themesOptions: themesHome.chartOptions,
-
-        genderData: genderHome.series,
-        genderOptions: genderHome.chartOptions,
-
-        agesData: agesHome.series,
-        agesOptions: agesHome.chartOptions
       } 
     },
     mounted: function(){

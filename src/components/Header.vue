@@ -7,7 +7,13 @@
         <p> {{ description }}</p>
       </div>
       <div class="header__img">
-        <img src="@/assets/img/header-img.svg" alt="">
+        <img v-if="image == 'home'"
+        src="@/assets/img/header-home.svg" 
+        alt="Imagen header">
+
+        <img v-if="image == 'groups'"
+        src="@/assets/img/header-groups.svg" 
+        alt="Imagen header">
       </div>
     </div>
   </header>
@@ -21,7 +27,7 @@
       title: String,
       subTitle: String,
       description: String,
-      /* image: String */
+      image: String
     }
   }
 </script>

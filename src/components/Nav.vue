@@ -10,7 +10,7 @@
     </div>
     <ul class='nav__list'>
       <li v-for="item in menu" :key="item.name" class="nav__item">
-        <router-link v-bind:to="item.route" class="nav__link"> 
+        <router-link v-bind:to="item.route" class="nav__link hola"> 
           {{item.name}} 
         </router-link> 
       </li>
@@ -57,6 +57,10 @@
   .nav .nav__list {
     display: none;
     list-style: none;
+  }
+
+  .nav__list .nav__link:hover{
+    color: var(--secondary-color);
   }
 
   @media (min-width: 1008px) {

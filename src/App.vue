@@ -64,70 +64,13 @@ export default {
     align-items: center;
   }
 
-  /* 
-    Themes and Groups 
-    common styles
-  */
-
-  .groups, 
-  .themes{
+  .main {
     width: 100%;
-    padding: 50px;
-
-    display: flex;
-    justify-content: center;
-  }
-
-  .themes__container, 
-  .groups__container{
-    max-width: 1024px;
-    padding: 50px;
-    border-radius: 15px;
-
-    background-color: white;
-    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
-
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
-  }
 
-  .themes__title,
-  .groups__title {
-    margin-bottom: 50px;
-  }
-
-  .themes__list,
-  .groups__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .themes__topic,
-  .groups__party{
-    width: 200px;
-    height: 100px;
-    padding: 25px;
-    border-radius: 15px;
-    margin: 0px 5px 25px;
-
-    background-color: rgba(0,0,0,1);
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .themes__topic p,
-  .groups__party p{
-    color: white
-  }
-
-  .themes__topic img,
-  .groups__party img{
-    width: 20px;
+    background-color: var(--light-grey);
   }
 
   @media (min-width: 641px) {

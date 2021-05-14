@@ -3,21 +3,22 @@
     <Header 
       :title='title' 
       :subTitle='subTitle' 
-      :description='description'/>
+      :description='description'
+      image='home'/>
     
-    <Section 
+    <SectionChart
       title="¿Sobre que temáticas preguntar más los diputados?"
-      :chartData='themesData'
-      :chartOptions='themesOptions'
+      :chartData='topicsData'
+      :chartOptions='topicsOptions'
     />
 
-    <Section 
+    <SectionChart 
       title="¿Que porcentage de Mujeres y Hombres hay en el congreso?"
       :chartData='genderData'
       :chartOptions='genderOptions'
     />
 
-    <Section 
+    <SectionChart 
       title="¿En que rango de edades hay más diputados?"
       :chartData='agesData'
       :chartOptions='agesOptions'
@@ -27,9 +28,9 @@
 
 <script>
   import Header from '@/components/Header.vue'
-  import Section from '@/components/Section.vue'
+  import SectionChart from '@/components/SectionChart.vue'
   
-  import { themesHome, genderHome, agesHome } from '@/assets/js/charts.js'
+  import { homeTopicsChart, homeGenderChart, homeAgesChart } from '@/assets/js/charts.js'
 
 
   export default {
@@ -42,33 +43,20 @@
         los diputados al gobierno en el parlamento y te los facilitamos con gráficas de\
         forma totalmente neutral.',
 
-        themesData: themesHome.series,
-        themesOptions: themesHome.chartOptions,
+        topicsData: homeTopicsChart.series,
+        topicsOptions: homeTopicsChart.chartOptions,
 
-        genderData: genderHome.series,
-        genderOptions: genderHome.chartOptions,
+        genderData: homeGenderChart.series,
+        genderOptions: homeGenderChart.chartOptions,
 
-        agesData: agesHome.series,
-        agesOptions: agesHome.chartOptions
+        agesData: homeAgesChart.series,
+        agesOptions: homeAgesChart.chartOptions
       } 
     },
     components: {
       Header,
-      Section,
+      SectionChart,
     },
   }
 </script>
 
-<style scoped>
-  .main {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-
-    background-color: var(--light-grey);
-  }
-  @media (min-width: 1008px) {
-    
-  } 
-</style>
