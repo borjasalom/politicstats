@@ -1,6 +1,7 @@
 <template>
   <main class="main">
     <SectionList 
+      title="Grupos Parlamentarios"
       :list="groupsList" 
       parentPaht='/groups/'/>
     <SectionChart 

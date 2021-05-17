@@ -116,5 +116,23 @@ let groupsChartConf = {
   tooltip:{ enabled: false },
 }
 
+let dateChartConf = {
+  chart: {
+    height: 250,
+    type: 'line',
+    toolbar: { show: false }
+  },
+  colors: ['#FF6584', "#6C63FF", "#00BFA6"],
+  dataLabels: {
+    enabled: false
+  },
+  stroke: {
+    curve: 'straight'
+  },
+  xaxis: {
+    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  }
+}
 
-export {topicsChartConf, genderChartConf, ageChartConf, groupsChartConf};
+
+export {topicsChartConf, genderChartConf, ageChartConf, groupsChartConf, dateChartConf};

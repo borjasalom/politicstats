@@ -1,6 +1,6 @@
 <template>
   <section class="section-list">
-    <h2 class="section-list__title"> Temáticas </h2>
+    <h2 class="section-list__title"> {{ title }} </h2>
     <div class="section-list__links">
       <router-link 
           :to="parentPaht + item.index"
@@ -24,6 +24,7 @@
     props: {
       list: Array,
       parentPaht: String,
+      title: String
     }
   }
 </script>

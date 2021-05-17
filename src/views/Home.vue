@@ -13,7 +13,7 @@
     />
 
     <SectionChart 
-      title="¿Que porcentage de Mujeres y Hombres hay en el congreso?"
+      title="¿Cuantas Mujeres y Hombres hay en el congreso?"
       :chartData='genderData'
       :chartOptions='genderOptions'
     />

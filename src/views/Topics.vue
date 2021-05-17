@@ -1,6 +1,9 @@
 <template>
   <main class="main">
-    <SectionList :list="topicsList" parentPaht='/topics/'/>
+    <SectionList 
+      title="Temáticas"
+      :list="topicsList" 
+      parentPaht='/topics/'/>
   </main>
 </template>
 

@@ -10,7 +10,7 @@
       :chartOptions='topicsOptions'
     />
     <SectionChart
-      :title="'¿Que porcentage de Mujeres y Hombres hay en el '+ group.shortname + '?'"
+      :title="'¿Cuantas Mujeres y Hombres hay en '+ group.shortname + '?'"
       :chartData='genderData'
       :chartOptions='genderOptions'
     />
@@ -55,8 +55,6 @@
         groupsList[param].ages.ages45_54,
         groupsList[param].ages.ages55More,
       ]
-
-      console.log(groupAgesData);
       
       return {
         group: groupsList[param],

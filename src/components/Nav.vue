@@ -1,7 +1,7 @@
 <template>
   <nav class="nav">
     <router-link to="/">
-      <h5 class="nav__logo">Parliamentary Questions</h5>
+      <h5 class="nav__logo">Preguntas Parlamentarias</h5>
     </router-link> 
     <div class="nav__menu-button">
       <div class="nav__menu-line"></div>

@@ -14,6 +14,10 @@
         <img v-if="image == 'groups'"
         src="@/assets/img/header-groups.svg" 
         alt="Imagen header">
+
+        <img v-if="image == 'topics'"
+        src="@/assets/img/header-topics.svg" 
+        alt="Imagen header">
       </div>
     </div>
   </header>
@@ -82,7 +86,7 @@
     }
 
     .header__content .header__img{
-      width: 40%;
+      width: 35%;
     }
 
     .header__content .header__text{

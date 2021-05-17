@@ -1,82 +1,1548 @@
-{
-  "name": "Calidad democrática",
-  "shortname": "Democracia",
-  "gender": {
-    "male": 6149,
-    "female": 2466
+[
+  {
+    "name": "Calidad democrática",
+    "shortname": "Democracia",
+    "gender": {
+      "male": 6149,
+      "female": 2466
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 528,
+      "ages35_44": 1283,
+      "ages45_54": 4121,
+      "ages55More": 2683,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 17
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 71,
+            "feb": 37,
+            "mar": 89,
+            "abr": 646,
+            "may": 207,
+            "jun": 193,
+            "jul": 99,
+            "ago": 36,
+            "sep": 98,
+            "oct": 136,
+            "nov": 73,
+            "dec": 100
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 99,
+            "feb": 152,
+            "mar": 143,
+            "abr": 37,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 0
   },
-  "ages": {
-    "ages18_24": 0,
-    "ages25_34": 528,
-    "ages35_44": 1283,
-    "ages45_54": 4121,
-    "ages55More": 2683,
-    "unknown": 0
+  {
+    "name": "Cambio climático y política energética",
+    "shortname": "Energía y clima",
+    "gender": {
+      "male": 2138,
+      "female": 918
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 185,
+      "ages35_44": 1000,
+      "ages45_54": 773,
+      "ages55More": 1098,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 141
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 77,
+            "feb": 390,
+            "mar": 60,
+            "abr": 74,
+            "may": 97,
+            "jun": 162,
+            "jul": 133,
+            "ago": 38,
+            "sep": 48,
+            "oct": 162,
+            "nov": 80,
+            "dec": 185
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 269,
+            "feb": 175,
+            "mar": 112,
+            "abr": 10,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 1
   },
-  "dates": [
-    {
-      "date": "2019 - 11",
-      "num": 17
+  {
+    "name": "Colectivo LGTBI",
+    "shortname": "LGTBI",
+    "gender": {
+      "male": 242,
+      "female": 253
     },
-    {
-      "date": "2020 - 0",
-      "num": 71
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 63,
+      "ages35_44": 71,
+      "ages45_54": 177,
+      "ages55More": 184,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 1",
-      "num": 37
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 6
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 22,
+            "feb": 6,
+            "mar": 24,
+            "abr": 4,
+            "may": 19,
+            "jun": 41,
+            "jul": 38,
+            "ago": 0,
+            "sep": 2,
+            "oct": 8,
+            "nov": 17,
+            "dec": 30
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 24,
+            "feb": 16,
+            "mar": 20,
+            "abr": 1,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 2
+  },
+  {
+    "name": "Comercio internacional",
+    "shortname": "Comercio internacional",
+    "gender": {
+      "male": 1052,
+      "female": 550
     },
-    {
-      "date": "2020 - 10",
-      "num": 73
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 148,
+      "ages35_44": 407,
+      "ages45_54": 558,
+      "ages55More": 489,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 11",
-      "num": 100
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 73
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 83,
+            "feb": 44,
+            "mar": 37,
+            "abr": 68,
+            "may": 97,
+            "jun": 62,
+            "jul": 115,
+            "ago": 19,
+            "sep": 114,
+            "oct": 88,
+            "nov": 49,
+            "dec": 30
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 35,
+            "feb": 87,
+            "mar": 95,
+            "abr": 13,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 3
+  },
+  {
+    "name": "Conductas adictivas",
+    "shortname": "Adicciones",
+    "gender": {
+      "male": 370,
+      "female": 146
     },
-    {
-      "date": "2020 - 2",
-      "num": 89
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 41,
+      "ages35_44": 65,
+      "ages45_54": 190,
+      "ages55More": 220,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 3",
-      "num": 646
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 10
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 21,
+            "feb": 14,
+            "mar": 17,
+            "abr": 9,
+            "may": 27,
+            "jun": 35,
+            "jul": 28,
+            "ago": 1,
+            "sep": 15,
+            "oct": 9,
+            "nov": 19,
+            "dec": 23
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 44,
+            "feb": 9,
+            "mar": 72,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 4
+  },
+  {
+    "name": "Conflictos internacionales y construcción de paz",
+    "shortname": "Conflictos y paz",
+    "gender": {
+      "male": 1521,
+      "female": 669
     },
-    {
-      "date": "2020 - 4",
-      "num": 207
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 102,
+      "ages35_44": 610,
+      "ages45_54": 711,
+      "ages55More": 767,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 5",
-      "num": 193
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 24
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 27,
+            "feb": 45,
+            "mar": 86,
+            "abr": 59,
+            "may": 58,
+            "jun": 69,
+            "jul": 79,
+            "ago": 30,
+            "sep": 70,
+            "oct": 166,
+            "nov": 55,
+            "dec": 113
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 44,
+            "feb": 40,
+            "mar": 94,
+            "abr": 11,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 5
+  },
+  {
+    "name": "Cooperación al desarrollo",
+    "shortname": "Cooperación al desarrollo",
+    "gender": {
+      "male": 1012,
+      "female": 866
     },
-    {
-      "date": "2020 - 6",
-      "num": 99
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 115,
+      "ages35_44": 524,
+      "ages45_54": 782,
+      "ages55More": 457,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 7",
-      "num": 36
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 30
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 15,
+            "feb": 10,
+            "mar": 52,
+            "abr": 51,
+            "may": 124,
+            "jun": 137,
+            "jul": 81,
+            "ago": 45,
+            "sep": 54,
+            "oct": 94,
+            "nov": 42,
+            "dec": 88
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 139,
+            "feb": 63,
+            "mar": 288,
+            "abr": 13,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 6
+  },
+  {
+    "name": "Democracia y derechos en la era digital",
+    "shortname": "Derechos digitales",
+    "gender": {
+      "male": 2591,
+      "female": 961
     },
-    {
-      "date": "2020 - 8",
-      "num": 98
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 273,
+      "ages35_44": 619,
+      "ages45_54": 1549,
+      "ages55More": 1111,
+      "unknown": 0
     },
-    {
-      "date": "2020 - 9",
-      "num": 136
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 79
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 55,
+            "feb": 69,
+            "mar": 80,
+            "abr": 187,
+            "may": 103,
+            "jun": 112,
+            "jul": 142,
+            "ago": 64,
+            "sep": 105,
+            "oct": 227,
+            "nov": 48,
+            "dec": 176
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 106,
+            "feb": 199,
+            "mar": 666,
+            "abr": 24,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 7
+  },
+  {
+    "name": "Dependencia",
+    "shortname": "Dependencia",
+    "gender": {
+      "male": 343,
+      "female": 443
     },
-    {
-      "date": "2021 - 0",
-      "num": 99
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 62,
+      "ages35_44": 120,
+      "ages45_54": 355,
+      "ages55More": 249,
+      "unknown": 0
     },
-    {
-      "date": "2021 - 1",
-      "num": 152
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 30
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 21,
+            "feb": 11,
+            "mar": 45,
+            "abr": 56,
+            "may": 33,
+            "jun": 69,
+            "jul": 52,
+            "ago": 21,
+            "sep": 40,
+            "oct": 20,
+            "nov": 12,
+            "dec": 19
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 51,
+            "feb": 44,
+            "mar": 53,
+            "abr": 6,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 8
+  },
+  {
+    "name": "Educación",
+    "shortname": "Educación",
+    "gender": {
+      "male": 2876,
+      "female": 2467
     },
-    {
-      "date": "2021 - 2",
-      "num": 132
-    }
-  ]
-}
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 194,
+      "ages35_44": 1402,
+      "ages45_54": 1742,
+      "ages55More": 2005,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 56
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 75,
+            "feb": 59,
+            "mar": 104,
+            "abr": 89,
+            "may": 85,
+            "jun": 156,
+            "jul": 207,
+            "ago": 39,
+            "sep": 197,
+            "oct": 254,
+            "nov": 66,
+            "dec": 72
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 111,
+            "feb": 109,
+            "mar": 518,
+            "abr": 41,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 9
+  },
+  {
+    "name": "Empleo",
+    "shortname": "Empleo",
+    "gender": {
+      "male": 9289,
+      "female": 5644
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 1028,
+      "ages35_44": 3252,
+      "ages45_54": 6212,
+      "ages55More": 4441,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 118
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 100,
+            "feb": 146,
+            "mar": 270,
+            "abr": 951,
+            "may": 519,
+            "jun": 649,
+            "jul": 420,
+            "ago": 244,
+            "sep": 484,
+            "oct": 609,
+            "nov": 232,
+            "dec": 382
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 409,
+            "feb": 690,
+            "mar": 958,
+            "abr": 96,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 10
+  },
+  {
+    "name": "Fiscalidad",
+    "shortname": "Fiscalidad",
+    "gender": {
+      "male": 938,
+      "female": 326
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 69,
+      "ages35_44": 192,
+      "ages45_54": 610,
+      "ages55More": 393,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 16
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 23,
+            "feb": 36,
+            "mar": 29,
+            "abr": 53,
+            "may": 32,
+            "jun": 100,
+            "jul": 78,
+            "ago": 20,
+            "sep": 23,
+            "oct": 45,
+            "nov": 31,
+            "dec": 65
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 71,
+            "feb": 59,
+            "mar": 549,
+            "abr": 14,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 11
+  },
+  {
+    "name": "Igualdad de género",
+    "shortname": "Igualdad de género",
+    "gender": {
+      "male": 2207,
+      "female": 3721
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 687,
+      "ages35_44": 1255,
+      "ages45_54": 2145,
+      "ages55More": 1841,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 108
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 156,
+            "feb": 83,
+            "mar": 490,
+            "abr": 103,
+            "may": 215,
+            "jun": 302,
+            "jul": 183,
+            "ago": 108,
+            "sep": 109,
+            "oct": 259,
+            "nov": 144,
+            "dec": 342
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 352,
+            "feb": 260,
+            "mar": 497,
+            "abr": 32,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 12
+  },
+  {
+    "name": "Infancia",
+    "shortname": "Infancia",
+    "gender": {
+      "male": 4016,
+      "female": 4100
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 631,
+      "ages35_44": 1945,
+      "ages45_54": 2841,
+      "ages55More": 2699,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 114
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 204,
+            "feb": 126,
+            "mar": 190,
+            "abr": 165,
+            "may": 222,
+            "jun": 255,
+            "jul": 257,
+            "ago": 120,
+            "sep": 336,
+            "oct": 260,
+            "nov": 208,
+            "dec": 279
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 264,
+            "feb": 245,
+            "mar": 813,
+            "abr": 55,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 13
+  },
+  {
+    "name": "Migraciones",
+    "shortname": "Migraciones",
+    "gender": {
+      "male": 2751,
+      "female": 2700
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 544,
+      "ages35_44": 1697,
+      "ages45_54": 1772,
+      "ages55More": 1438,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 97
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 92,
+            "feb": 114,
+            "mar": 143,
+            "abr": 117,
+            "may": 168,
+            "jun": 166,
+            "jul": 195,
+            "ago": 102,
+            "sep": 182,
+            "oct": 506,
+            "nov": 161,
+            "dec": 264
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 128,
+            "feb": 114,
+            "mar": 126,
+            "abr": 44,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 14
+  },
+  {
+    "name": "Personas con discapacidad",
+    "shortname": "Discapacidad",
+    "gender": {
+      "male": 882,
+      "female": 1237
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 195,
+      "ages35_44": 326,
+      "ages45_54": 911,
+      "ages55More": 687,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 66
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 81,
+            "feb": 35,
+            "mar": 92,
+            "abr": 46,
+            "may": 81,
+            "jun": 97,
+            "jul": 40,
+            "ago": 45,
+            "sep": 57,
+            "oct": 58,
+            "nov": 92,
+            "dec": 46
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 210,
+            "feb": 181,
+            "mar": 178,
+            "abr": 36,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 15
+  },
+  {
+    "name": "Personas mayores",
+    "shortname": "Mayores",
+    "gender": {
+      "male": 1287,
+      "female": 1205
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 167,
+      "ages35_44": 416,
+      "ages45_54": 1045,
+      "ages55More": 864,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 32
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 45,
+            "feb": 25,
+            "mar": 107,
+            "abr": 161,
+            "may": 115,
+            "jun": 195,
+            "jul": 76,
+            "ago": 24,
+            "sep": 61,
+            "oct": 48,
+            "nov": 176,
+            "dec": 38
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 107,
+            "feb": 176,
+            "mar": 59,
+            "abr": 7,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 16
+  },
+  {
+    "name": "Personas sin hogar",
+    "shortname": "Personas sin hogar",
+    "gender": {
+      "male": 76,
+      "female": 123
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 17,
+      "ages35_44": 35,
+      "ages45_54": 76,
+      "ages55More": 71,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 3
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 2,
+            "feb": 4,
+            "mar": 21,
+            "abr": 15,
+            "may": 30,
+            "jun": 34,
+            "jul": 24,
+            "ago": 2,
+            "sep": 4,
+            "oct": 3,
+            "nov": 8,
+            "dec": 6
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 19,
+            "feb": 4,
+            "mar": 37,
+            "abr": 1,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 17
+  },
+  {
+    "name": "Población gitana",
+    "shortname": "Población gitana",
+    "gender": {
+      "male": 141,
+      "female": 293
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 20,
+      "ages35_44": 134,
+      "ages45_54": 175,
+      "ages55More": 105,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 12
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 32,
+            "feb": 20,
+            "mar": 41,
+            "abr": 8,
+            "may": 12,
+            "jun": 24,
+            "jul": 17,
+            "ago": 7,
+            "sep": 12,
+            "oct": 16,
+            "nov": 11,
+            "dec": 63
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 19,
+            "feb": 18,
+            "mar": 96,
+            "abr": 6,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 18
+  },
+  {
+    "name": "Población reclusa",
+    "shortname": "Población reclusa",
+    "gender": {
+      "male": 2611,
+      "female": 1284
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 129,
+      "ages35_44": 783,
+      "ages45_54": 1655,
+      "ages55More": 1328,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 193
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 65,
+            "feb": 131,
+            "mar": 67,
+            "abr": 138,
+            "may": 128,
+            "jun": 82,
+            "jul": 140,
+            "ago": 18,
+            "sep": 68,
+            "oct": 126,
+            "nov": 300,
+            "dec": 53
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 229,
+            "feb": 218,
+            "mar": 202,
+            "abr": 7,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 19
+  },
+  {
+    "name": "Protección social",
+    "shortname": "Protección social",
+    "gender": {
+      "male": 2721,
+      "female": 2328
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 295,
+      "ages35_44": 1171,
+      "ages45_54": 1925,
+      "ages55More": 1658,
+      "unknown": 0
+    },
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 33
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 45,
+            "feb": 42,
+            "mar": 108,
+            "abr": 173,
+            "may": 184,
+            "jun": 323,
+            "jul": 160,
+            "ago": 119,
+            "sep": 351,
+            "oct": 166,
+            "nov": 54,
+            "dec": 184
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 192,
+            "feb": 173,
+            "mar": 343,
+            "abr": 22,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ],
+    "index": 20
+  },
+  {
+    "name": "Sanidad",
+    "shortname": "Sanidad",
+    "gender": {
+      "male": 35327,
+      "female": 25438
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 2427,
+      "ages35_44": 11077,
+      "ages45_54": 27349,
+      "ages55More": 19912,
+      "unknown": 0
+    },
+    "dates": []
+  },
+  {
+    "name": "Vivienda",
+    "shortname": "Vivienda",
+    "gender": {
+      "male": 1506,
+      "female": 1032
+    },
+    "ages": {
+      "ages18_24": 0,
+      "ages25_34": 149,
+      "ages35_44": 609,
+      "ages45_54": 1033,
+      "ages55More": 747,
+      "unknown": 0
+    },
+    "dates": []
+  }
+]
