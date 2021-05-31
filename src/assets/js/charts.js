@@ -1,4 +1,4 @@
-import homeJSON from '../json/home.json'
+import homeJSON from '../json/homeApp.json'
 import groupsJSON from '../json/groupsApp.json'
 
 import {topicsChartConf, genderChartConf, ageChartConf, groupsChartConf} from './chartsConf.js'
@@ -42,13 +42,34 @@ let homeAgesChart = {
 let groupsDiputies = [];
 
 for (const group of groupsJSON) {
-  groupsDiputies.push(group.deputies);
+  
+  groupsDiputies.push({
+    numero: group.deputies,
+    name: group.shortname,
+    color: group.color,
+  })
+}
+
+groupsDiputies.sort(function( a, b ) {
+  if ( a.numero > b.numero ){
+    return -1;
+  }
+  if ( a.numero < b.numero ){
+    return 1;
+  }
+  return 0;
+})
+
+let dataDiputies = [];
+
+for (const group of groupsDiputies) {
+  dataDiputies.push(group.numero);
   groupsChartConf.colors.push(group.color);
-  groupsChartConf.labels.push(group.shortname + ": " + group.deputies);
+  groupsChartConf.labels.push(group.name + ": " + group.numero);
 }
 
 let groupsChart = {
-  series: groupsDiputies,
+  series: dataDiputies,
   chartOptions: groupsChartConf,
 }
 

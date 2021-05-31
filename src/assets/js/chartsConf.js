@@ -59,12 +59,7 @@ let genderChartConf = {
     inverseOrder: true,
     itemMargin: { horizontal: 10, vertical: 10 },
   },
-  tooltip: {
-    theme: "light",
-    fillSeriesColor: false,
-    x: { show: false },
-    marker: { show: false },
-  },
+  tooltip:{ enabled: false },
 }
 
 let ageChartConf = {
@@ -112,8 +107,15 @@ let groupsChartConf = {
     fontSize: '16px',
     inverseOrder: false,
     itemMargin: { horizontal: 10, vertical: 10 },
+    offsetY: 0,
   },
   tooltip:{ enabled: false },
+  plotOptions: {
+    /* pie: {
+      startAngle: -90,
+      endAngle: 90,
+    } */
+  }
 }
 
 let dateChartConf = {

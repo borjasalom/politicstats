@@ -13,13 +13,13 @@
     />
 
     <SectionChart
-      :title="'¿Cuantas preguntas por diputado sobre ' + topic.shortname + ' las han hecho mujeres y cuantas hombres?'"
+      :title="'¿Cual es la media de preguntas por diputado que han hecho mujeres y hombres sobre ' + topic.shortname + '?'"
       :chartData='genderData'
       :chartOptions='genderOptions'
     />
 
     <SectionChart
-      :title="'¿Cuantas preguntas por diputado realizan sobre ' + topic.shortname + ' en cada rango de edad?'"
+      :title="'¿Cual es la media de preguntas por diputado que han hecho en cada rango de edad sobre ' + topic.shortname + '?'"
       :chartData='ageData'
       :chartOptions='ageOptions'
     />
@@ -28,8 +28,7 @@
 
 <script>
   import Header from '@/components/Header.vue'
-  import topicsList from '@/assets/json/themes.json'
-  import topic from '@/assets/json/topicsComplete.json'
+  import topic from '@/assets/json/topicsApp.json'
   import { dateChartConf, genderChartConf, ageChartConf } from '@/assets/js/chartsConf.js'
   import SectionChart from '@/components/SectionChart.vue'
 
@@ -67,7 +66,7 @@
       ]
 
       return {
-        topic: topicsList[param],
+        topic: topic[param],
 
         dateData: dateData,
         dateOptions: dateChartConf,

@@ -1,0 +1,65 @@
+{
+  "gender": {
+    "male": 197,
+    "female": 153
+  },
+  "ages": {
+    "ages18_24": 0,
+    "ages25_34": 25,
+    "ages35_44": 83,
+    "ages45_54": 118,
+    "ages55More": 124
+  },
+  "topics": [
+    {
+      "name": "Sanidad",
+      "shortname": "Sanidad",
+      "numQuestions": 23897
+    },
+    {
+      "name": "Empleo",
+      "shortname": "Empleo",
+      "numQuestions": 7334
+    },
+    {
+      "name": "Infancia",
+      "shortname": "Infancia",
+      "numQuestions": 4163
+    },
+    {
+      "name": "Igualdad de género",
+      "shortname": "Igualdad de género",
+      "numQuestions": 3784
+    },
+    {
+      "name": "Migraciones",
+      "shortname": "Migraciones",
+      "numQuestions": 2745
+    },
+    {
+      "name": "Protección social",
+      "shortname": "Protección social",
+      "numQuestions": 2685
+    },
+    {
+      "name": "Democracia y derechos en la era digital",
+      "shortname": "Derechos digitales",
+      "numQuestions": 2457
+    },
+    {
+      "name": "Educación",
+      "shortname": "Educación",
+      "numQuestions": 2274
+    },
+    {
+      "name": "Calidad democrática",
+      "shortname": "Democracia",
+      "numQuestions": 2244
+    },
+    {
+      "name": "Cambio climático y política energética",
+      "shortname": "Energía y clima",
+      "numQuestions": 2220
+    }
+  ]
+}

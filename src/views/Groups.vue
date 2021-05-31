@@ -35,3 +35,8 @@
   }
 </script>
 
+<style scoped>
+  .section-list__item:hover {
+    opacity: 0.75;
+  }
+</style>

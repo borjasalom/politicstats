@@ -2,17 +2,18 @@
   {
     "name": "Calidad democrática",
     "shortname": "Democracia",
+    "description": "Defender el espacio democrático y ampliar el conocimiento por la ciudadanía de la actividad de los poderes públicos, regulando y garantizando el derecho de acceso a la información pública y protegiendo las garantías ciudadanas básicas, promueven su capacidad de decidir y el desarrollo de una conciencia ciudadana y democrática plena.",
+    "index": "0",
     "gender": {
-      "male": 6149,
-      "female": 2466
+      "male": 6071,
+      "female": 2447
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 528,
-      "ages35_44": 1283,
-      "ages45_54": 4121,
-      "ages55More": 2683,
-      "unknown": 0
+      "ages25_34": 955,
+      "ages35_44": 766,
+      "ages45_54": 4122,
+      "ages55More": 2675
     },
     "dates": [
       [
@@ -55,8 +56,8 @@
           "months": {
             "gen": 99,
             "feb": 152,
-            "mar": 143,
-            "abr": 37,
+            "mar": 150,
+            "abr": 41,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -68,23 +69,23 @@
           }
         }
       ]
-    ],
-    "index": 0
+    ]
   },
   {
     "name": "Cambio climático y política energética",
     "shortname": "Energía y clima",
+    "description": "El cambio climático tiene dimensión global, pero sus impactos más directos y sus consecuencias más graves se dan en los países en desarrollo. Una respuesta global y eficaz debe abordar tanto la dimensión de adaptación como la de mitigación, lo que exige compatibilizar compromisos ambiciosos de financiación, con una apuesta decidida por modelos sostenibles de producción, transporte y consumo.",
+    "index": "1",
     "gender": {
-      "male": 2138,
-      "female": 918
+      "male": 2127,
+      "female": 905
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 185,
-      "ages35_44": 1000,
+      "ages25_34": 202,
+      "ages35_44": 959,
       "ages45_54": 773,
-      "ages55More": 1098,
-      "unknown": 0
+      "ages55More": 1098
     },
     "dates": [
       [
@@ -127,8 +128,8 @@
           "months": {
             "gen": 269,
             "feb": 175,
-            "mar": 112,
-            "abr": 10,
+            "mar": 116,
+            "abr": 13,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -140,23 +141,23 @@
           }
         }
       ]
-    ],
-    "index": 1
+    ]
   },
   {
     "name": "Colectivo LGTBI",
     "shortname": "LGTBI",
+    "description": "Las personas LGTBI son uno de los colectivos que mayor discriminación y violencia sufre tanto a nivel social como institucional enfrentándose a múltiples barreras en el acceso a sanidad, empleo y educación no garantizando los derechos de este colectivo.",
+    "index": "2",
     "gender": {
-      "male": 242,
-      "female": 253
+      "male": 240,
+      "female": 246
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 63,
-      "ages35_44": 71,
-      "ages45_54": 177,
-      "ages55More": 184,
-      "unknown": 0
+      "ages25_34": 61,
+      "ages35_44": 69,
+      "ages45_54": 172,
+      "ages55More": 184
     },
     "dates": [
       [
@@ -199,8 +200,8 @@
           "months": {
             "gen": 24,
             "feb": 16,
-            "mar": 20,
-            "abr": 1,
+            "mar": 22,
+            "abr": 2,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -212,23 +213,23 @@
           }
         }
       ]
-    ],
-    "index": 2
+    ]
   },
   {
     "name": "Comercio internacional",
     "shortname": "Comercio internacional",
+    "description": "El comercio es un parámetro de un orden de magnitud mayor que cualquier otro del sistema económico internacional. Tiene una influencia decisiva en la generación y destrucción de oportunidades económicas y sociales para los países. Las reglas, principios y acuerdos del sistema comercial internacional son una pieza fundamental del problema y también de la solución de muchos de los actuales retos globales del desarrollo y de la lucha contra la pobreza, en especial en los países en vías de desarrollo.",
+    "index": "3",
     "gender": {
-      "male": 1052,
-      "female": 550
+      "male": 1015,
+      "female": 535
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 148,
-      "ages35_44": 407,
-      "ages45_54": 558,
-      "ages55More": 489,
-      "unknown": 0
+      "ages25_34": 152,
+      "ages35_44": 358,
+      "ages45_54": 556,
+      "ages55More": 484
     },
     "dates": [
       [
@@ -271,8 +272,8 @@
           "months": {
             "gen": 35,
             "feb": 87,
-            "mar": 95,
-            "abr": 13,
+            "mar": 103,
+            "abr": 14,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -284,23 +285,23 @@
           }
         }
       ]
-    ],
-    "index": 3
+    ]
   },
   {
     "name": "Conductas adictivas",
     "shortname": "Adicciones",
+    "description": "Las personas en situación de drogodependencia, ludopatía u otras conductas adictivas se encuentran habitualmente en riesgo de exclusión social, por lo que las medidas de atención, de inserción en la sociedad y de fomento de sus capacidades reducen su situación de vulnerabilidad y fomentan su dignidad como personas.",
+    "index": "4",
     "gender": {
-      "male": 370,
-      "female": 146
+      "male": 357,
+      "female": 143
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 41,
-      "ages35_44": 65,
-      "ages45_54": 190,
-      "ages55More": 220,
-      "unknown": 0
+      "ages25_34": 29,
+      "ages35_44": 64,
+      "ages45_54": 187,
+      "ages55More": 220
     },
     "dates": [
       [
@@ -356,23 +357,23 @@
           }
         }
       ]
-    ],
-    "index": 4
+    ]
   },
   {
     "name": "Conflictos internacionales y construcción de paz",
     "shortname": "Conflictos y paz",
+    "description": "La satisfacción de las necesidades básicas y la seguridad son dos aspiraciones universales y la base sobre la que edificar un mundo más justo y sostenible. Por ello, la lucha contra la pobreza, la consecución de un entorno pacífico y seguro y la instauración de un orden internacional justo, de paz, estabilidad y respeto de los derechos humanos son dos caras de una misma moneda.",
+    "index": "5",
     "gender": {
-      "male": 1521,
-      "female": 669
+      "male": 1355,
+      "female": 656
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 102,
-      "ages35_44": 610,
-      "ages45_54": 711,
-      "ages55More": 767,
-      "unknown": 0
+      "ages25_34": 104,
+      "ages35_44": 420,
+      "ages45_54": 741,
+      "ages55More": 746
     },
     "dates": [
       [
@@ -415,8 +416,8 @@
           "months": {
             "gen": 44,
             "feb": 40,
-            "mar": 94,
-            "abr": 11,
+            "mar": 117,
+            "abr": 12,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -428,23 +429,23 @@
           }
         }
       ]
-    ],
-    "index": 5
+    ]
   },
   {
     "name": "Cooperación al desarrollo",
     "shortname": "Cooperación al desarrollo",
+    "description": "Una política de Cooperación para el desarrollo coherente, de calidad y en la cantidad suficiente contribuye decisivamente a la lucha contra los grandes retos globales de nuestra era – el hambre, la pobreza, las desigualdades o el cambio climático –; a la vez que constituye un elemento imprescindible de la política exterior de una potencia media como España.",
+    "index": "6",
     "gender": {
-      "male": 1012,
-      "female": 866
+      "male": 929,
+      "female": 860
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 115,
-      "ages35_44": 524,
-      "ages45_54": 782,
-      "ages55More": 457,
-      "unknown": 0
+      "ages25_34": 116,
+      "ages35_44": 408,
+      "ages45_54": 816,
+      "ages55More": 449
     },
     "dates": [
       [
@@ -487,8 +488,8 @@
           "months": {
             "gen": 139,
             "feb": 63,
-            "mar": 288,
-            "abr": 13,
+            "mar": 291,
+            "abr": 14,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -500,23 +501,23 @@
           }
         }
       ]
-    ],
-    "index": 6
+    ]
   },
   {
     "name": "Democracia y derechos en la era digital",
     "shortname": "Derechos digitales",
+    "description": "La irrupción de internet en nuestras vidas es completa, la tecnología ha llegado para quedarse y no sólo ha modificado la manera en la que accedemos a la información sino también la manera en la que nos relacionamos con otras personas y con la política. Estos cambios han comenzado a afectar nuestros derechos como ciudadanos y ciudadanas y exigen de respuestas políticas para garantizar nuestras libertades.",
+    "index": "7",
     "gender": {
-      "male": 2591,
-      "female": 961
+      "male": 2502,
+      "female": 950
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 273,
-      "ages35_44": 619,
-      "ages45_54": 1549,
-      "ages55More": 1111,
-      "unknown": 0
+      "ages25_34": 301,
+      "ages35_44": 491,
+      "ages45_54": 1552,
+      "ages55More": 1108
     },
     "dates": [
       [
@@ -559,8 +560,8 @@
           "months": {
             "gen": 106,
             "feb": 199,
-            "mar": 666,
-            "abr": 24,
+            "mar": 676,
+            "abr": 29,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -572,23 +573,23 @@
           }
         }
       ]
-    ],
-    "index": 7
+    ]
   },
   {
     "name": "Dependencia",
     "shortname": "Dependencia",
+    "description": "Garantizar los derechos de las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, precisan de atención para realizar las actividades básicas de la vida diaria es imprescindible para evitar el riesgo de exclusión social.",
+    "index": "8",
     "gender": {
-      "male": 343,
-      "female": 443
+      "male": 327,
+      "female": 438
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 62,
-      "ages35_44": 120,
-      "ages45_54": 355,
-      "ages55More": 249,
-      "unknown": 0
+      "ages25_34": 52,
+      "ages35_44": 110,
+      "ages45_54": 354,
+      "ages55More": 249
     },
     "dates": [
       [
@@ -631,8 +632,8 @@
           "months": {
             "gen": 51,
             "feb": 44,
-            "mar": 53,
-            "abr": 6,
+            "mar": 55,
+            "abr": 9,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -644,23 +645,23 @@
           }
         }
       ]
-    ],
-    "index": 8
+    ]
   },
   {
     "name": "Educación",
     "shortname": "Educación",
+    "description": "Una educación pública, inclusiva y de calidad es esencial para acabar con las desigualdades sociales, garantizar la dignidad de las personas y promover un modelo de sociedad justo y equitativo. La educación es un factor que incide de forma determinante en el riesgo de vulnerabilidad social en la que se encuentran muchas familias y en sus posibilidades de superarla.",
+    "index": "9",
     "gender": {
-      "male": 2876,
-      "female": 2467
+      "male": 2822,
+      "female": 2416
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 194,
-      "ages35_44": 1402,
-      "ages45_54": 1742,
-      "ages55More": 2005,
-      "unknown": 0
+      "ages25_34": 238,
+      "ages35_44": 1246,
+      "ages45_54": 1749,
+      "ages55More": 2005
     },
     "dates": [
       [
@@ -703,8 +704,8 @@
           "months": {
             "gen": 111,
             "feb": 109,
-            "mar": 518,
-            "abr": 41,
+            "mar": 539,
+            "abr": 56,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -716,23 +717,23 @@
           }
         }
       ]
-    ],
-    "index": 9
+    ]
   },
   {
     "name": "Empleo",
     "shortname": "Empleo",
+    "description": "El trabajo ha sido siempre un elemento crucial para la cohesión y la inclusión social. Pero a día de hoy, tener empleo ya no es el único elemento diferencial entre la inclusión y la exclusión. La precariedad en el empleo genera, igualmente, exclusión y pobreza y su combate debe ser una prioridad para las políticas públicas actuales.",
+    "index": "10",
     "gender": {
-      "male": 9289,
-      "female": 5644
+      "male": 9189,
+      "female": 5590
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 1028,
-      "ages35_44": 3252,
-      "ages45_54": 6212,
-      "ages55More": 4441,
-      "unknown": 0
+      "ages25_34": 1524,
+      "ages35_44": 2593,
+      "ages45_54": 6221,
+      "ages55More": 4441
     },
     "dates": [
       [
@@ -761,7 +762,7 @@
             "mar": 270,
             "abr": 951,
             "may": 519,
-            "jun": 649,
+            "jun": 651,
             "jul": 420,
             "ago": 244,
             "sep": 484,
@@ -775,8 +776,8 @@
           "months": {
             "gen": 409,
             "feb": 690,
-            "mar": 958,
-            "abr": 96,
+            "mar": 994,
+            "abr": 115,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -788,23 +789,23 @@
           }
         }
       ]
-    ],
-    "index": 10
+    ]
   },
   {
     "name": "Fiscalidad",
     "shortname": "Fiscalidad",
+    "description": "Una fiscalidad justa es un pilar imprescindible para lograr una sociedad más cohesionada, consolidar el Estado de Bienestar, impulsar la solidaridad internacional e implementar las políticas públicas necesarias para hacer frente a los retos actuales de nuestra sociedad. También debe convertirse en una prioridad para las relaciones con los países en desarrollo, para lo cual son imprescindibles la lucha contra los paraísos fiscales, la evasión y elusión fiscal y la opacidad del sistema financiero internacional.",
+    "index": "11",
     "gender": {
-      "male": 938,
-      "female": 326
+      "male": 929,
+      "female": 323
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 69,
-      "ages35_44": 192,
-      "ages45_54": 610,
-      "ages55More": 393,
-      "unknown": 0
+      "ages25_34": 73,
+      "ages35_44": 174,
+      "ages45_54": 612,
+      "ages55More": 393
     },
     "dates": [
       [
@@ -847,8 +848,8 @@
           "months": {
             "gen": 71,
             "feb": 59,
-            "mar": 549,
-            "abr": 14,
+            "mar": 554,
+            "abr": 15,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -860,23 +861,23 @@
           }
         }
       ]
-    ],
-    "index": 11
+    ]
   },
   {
     "name": "Igualdad de género",
     "shortname": "Igualdad de género",
+    "description": "El 70% de las personas que viven en situación de pobreza en el mundo son mujeres, fruto de la situación de subordinación a la que se relega a la mujer en la sociedad. Es necesario continuar con el desarrollo de acciones positivas que equilibren estas desigualdades, orientadas a alcanzar una igualdad plena de oportunidades en el empleo, la conciliación de la vida laboral y familiar, la participación política y la protección de los derechos de las víctimas de violencia de género.",
+    "index": "12",
     "gender": {
-      "male": 2207,
-      "female": 3721
+      "male": 2160,
+      "female": 3698
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 687,
-      "ages35_44": 1255,
-      "ages45_54": 2145,
-      "ages55More": 1841,
-      "unknown": 0
+      "ages25_34": 671,
+      "ages35_44": 1202,
+      "ages45_54": 2144,
+      "ages55More": 1841
     },
     "dates": [
       [
@@ -919,8 +920,8 @@
           "months": {
             "gen": 352,
             "feb": 260,
-            "mar": 497,
-            "abr": 32,
+            "mar": 529,
+            "abr": 41,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -932,23 +933,23 @@
           }
         }
       ]
-    ],
-    "index": 12
+    ]
   },
   {
     "name": "Infancia",
     "shortname": "Infancia",
+    "description": "Todo compromiso de reducción de la pobreza y de promoción y defensa de los derechos de la infancia debe tener en cuenta factores como la educación, la salud y la alimentación, así como otras actividades que fomenten su desarrollo pleno y el de sus familias.",
+    "index": "13",
     "gender": {
-      "male": 4016,
-      "female": 4100
+      "male": 3937,
+      "female": 4055
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 631,
-      "ages35_44": 1945,
-      "ages45_54": 2841,
-      "ages55More": 2699,
-      "unknown": 0
+      "ages25_34": 654,
+      "ages35_44": 1790,
+      "ages45_54": 2850,
+      "ages55More": 2698
     },
     "dates": [
       [
@@ -991,8 +992,8 @@
           "months": {
             "gen": 264,
             "feb": 245,
-            "mar": 813,
-            "abr": 55,
+            "mar": 844,
+            "abr": 74,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -1004,23 +1005,23 @@
           }
         }
       ]
-    ],
-    "index": 13
+    ]
   },
   {
     "name": "Migraciones",
     "shortname": "Migraciones",
+    "description": "La intensidad de los flujos migratorios se ha acelerado en la última década y la inmigración irregular se lleva a cabo por vías cada vez más peligrosas. Una vez en nuestro país, atajar la vulneración de los derechos fundamentales de las personas migrantes es imprescindible para evitar que se vean abocados a situaciones de exclusión social. Por otro lado, la emigración española está en continuo ascenso y son esenciales políticas públicas que defiendan los derechos e intereses de los migrantes en el extranjero y promuevan oportunidades de retorno.",
+    "index": "14",
     "gender": {
-      "male": 2751,
-      "female": 2700
+      "male": 2505,
+      "female": 2680
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 544,
-      "ages35_44": 1697,
-      "ages45_54": 1772,
-      "ages55More": 1438,
-      "unknown": 0
+      "ages25_34": 561,
+      "ages35_44": 1372,
+      "ages45_54": 1819,
+      "ages55More": 1433
     },
     "dates": [
       [
@@ -1063,8 +1064,8 @@
           "months": {
             "gen": 128,
             "feb": 114,
-            "mar": 126,
-            "abr": 44,
+            "mar": 150,
+            "abr": 46,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -1076,23 +1077,23 @@
           }
         }
       ]
-    ],
-    "index": 14
+    ]
   },
   {
     "name": "Personas con discapacidad",
     "shortname": "Discapacidad",
+    "description": "Las personas con discapacidad constituyen uno de los grupos que sufren mayor discriminación en cuanto a accesibilidad, empleo, educación e igualdad de derechos, por lo que deben ser una prioridad para cualquier estrategia de inclusión de colectivos vulnerables.",
+    "index": "15",
     "gender": {
-      "male": 882,
-      "female": 1237
+      "male": 859,
+      "female": 1228
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 195,
-      "ages35_44": 326,
-      "ages45_54": 911,
-      "ages55More": 687,
-      "unknown": 0
+      "ages25_34": 182,
+      "ages35_44": 311,
+      "ages45_54": 907,
+      "ages55More": 687
     },
     "dates": [
       [
@@ -1135,8 +1136,8 @@
           "months": {
             "gen": 210,
             "feb": 181,
-            "mar": 178,
-            "abr": 36,
+            "mar": 186,
+            "abr": 48,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -1148,23 +1149,23 @@
           }
         }
       ]
-    ],
-    "index": 15
+    ]
   },
   {
     "name": "Personas mayores",
     "shortname": "Mayores",
+    "description": "La atención a la salud física y mental de las personas mayores y sus vínculos afectivos hacen que mejore su calidad de vida, enriqueciendo al mismo tiempo al conjunto de la sociedad. Las prestaciones por parte de las administraciones públicas son esenciales para el desarrollo de estas medidas.",
+    "index": "16",
     "gender": {
-      "male": 1287,
-      "female": 1205
+      "male": 1227,
+      "female": 1204
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 167,
-      "ages35_44": 416,
-      "ages45_54": 1045,
-      "ages55More": 864,
-      "unknown": 0
+      "ages25_34": 123,
+      "ages35_44": 394,
+      "ages45_54": 1050,
+      "ages55More": 864
     },
     "dates": [
       [
@@ -1207,7 +1208,7 @@
           "months": {
             "gen": 107,
             "feb": 176,
-            "mar": 59,
+            "mar": 65,
             "abr": 7,
             "may": 0,
             "jun": 0,
@@ -1220,23 +1221,23 @@
           }
         }
       ]
-    ],
-    "index": 16
+    ]
   },
   {
     "name": "Personas sin hogar",
     "shortname": "Personas sin hogar",
+    "description": "Las personas sin hogar se encuentran en una situación extrema de vulnerabilidad y exclusión social. Estas personas están en un proceso de pérdida del nicho social, afectivo y personal que afecta directamente a su desarrollo humano y requiere de políticas específicas para reducir su situación de vulnerabilidad.",
+    "index": "17",
     "gender": {
-      "male": 76,
+      "male": 72,
       "female": 123
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 17,
-      "ages35_44": 35,
+      "ages35_44": 31,
       "ages45_54": 76,
-      "ages55More": 71,
-      "unknown": 0
+      "ages55More": 71
     },
     "dates": [
       [
@@ -1279,7 +1280,7 @@
           "months": {
             "gen": 19,
             "feb": 4,
-            "mar": 37,
+            "mar": 38,
             "abr": 1,
             "may": 0,
             "jun": 0,
@@ -1292,23 +1293,23 @@
           }
         }
       ]
-    ],
-    "index": 17
+    ]
   },
   {
     "name": "Población gitana",
     "shortname": "Población gitana",
+    "description": "La discriminación de la comunidad gitana, afectada por el rechazo, la marginación y la privación material, afecta a la garantía de sus derechos más fundamentales. Para reducir esta brecha de desigualdad se deben abordar sus necesidades específicas, así como promover políticas públicas que aborden problemáticas generales –educación, empleo, sanidad, vivienda, etc. – cuyos efectos también les afectan.",
+    "index": "18",
     "gender": {
-      "male": 141,
-      "female": 293
+      "male": 139,
+      "female": 290
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 20,
-      "ages35_44": 134,
-      "ages45_54": 175,
-      "ages55More": 105,
-      "unknown": 0
+      "ages35_44": 120,
+      "ages45_54": 185,
+      "ages55More": 104
     },
     "dates": [
       [
@@ -1351,8 +1352,8 @@
           "months": {
             "gen": 19,
             "feb": 18,
-            "mar": 96,
-            "abr": 6,
+            "mar": 97,
+            "abr": 8,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -1364,23 +1365,23 @@
           }
         }
       ]
-    ],
-    "index": 18
+    ]
   },
   {
     "name": "Población reclusa",
     "shortname": "Población reclusa",
+    "description": "El sistema penitenciario en España está orientado a la reeducación y la reinserción social del colectivo recluso. No obstante, las problemáticas – propias y asociadas – de este colectivo hacen que se encuentren en una situación de especial vulnerabilidad en cuanto a su inclusión y bienestar social.",
+    "index": "19",
     "gender": {
-      "male": 2611,
-      "female": 1284
+      "male": 2581,
+      "female": 1279
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 129,
-      "ages35_44": 783,
-      "ages45_54": 1655,
-      "ages55More": 1328,
-      "unknown": 0
+      "ages25_34": 126,
+      "ages35_44": 753,
+      "ages45_54": 1656,
+      "ages55More": 1325
     },
     "dates": [
       [
@@ -1436,23 +1437,23 @@
           }
         }
       ]
-    ],
-    "index": 19
+    ]
   },
   {
     "name": "Protección social",
     "shortname": "Protección social",
+    "description": "Los sistemas de protección social permiten a las personas reaccionar frente a imprevistos de diversa índole y controlar ciertos niveles de riesgo o privación considerados inaceptables en la sociedad. Al mismo tiempo contribuyen a la redistribución de la riqueza y son garantes de la cohesión social.",
+    "index": "20",
     "gender": {
-      "male": 2721,
-      "female": 2328
+      "male": 2692,
+      "female": 2315
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 295,
-      "ages35_44": 1171,
-      "ages45_54": 1925,
-      "ages55More": 1658,
-      "unknown": 0
+      "ages25_34": 291,
+      "ages35_44": 1113,
+      "ages45_54": 1951,
+      "ages55More": 1652
     },
     "dates": [
       [
@@ -1481,7 +1482,7 @@
             "mar": 108,
             "abr": 173,
             "may": 184,
-            "jun": 323,
+            "jun": 325,
             "jul": 160,
             "ago": 119,
             "sep": 351,
@@ -1495,8 +1496,8 @@
           "months": {
             "gen": 192,
             "feb": 173,
-            "mar": 343,
-            "abr": 22,
+            "mar": 351,
+            "abr": 25,
             "may": 0,
             "jun": 0,
             "jul": 0,
@@ -1508,41 +1509,150 @@
           }
         }
       ]
-    ],
-    "index": 20
+    ]
   },
   {
     "name": "Sanidad",
     "shortname": "Sanidad",
+    "description": "El acceso a una sanidad pública, universal y de calidad es un requisito indispensable para la dignidad de las personas. Además, es un factor esencial para garantizar la equidad y evitar la exclusión social de las personas y colectivos que viven en situación de especial vulnerabilidad.",
+    "index": "21",
     "gender": {
-      "male": 35327,
-      "female": 25438
+      "male": 33800,
+      "female": 25274
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 2427,
-      "ages35_44": 11077,
-      "ages45_54": 27349,
-      "ages55More": 19912,
-      "unknown": 0
+      "ages25_34": 2907,
+      "ages35_44": 8816,
+      "ages45_54": 27458,
+      "ages55More": 19893
     },
-    "dates": []
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 120
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 136,
+            "feb": 184,
+            "mar": 1914,
+            "abr": 3913,
+            "may": 2937,
+            "jun": 1701,
+            "jul": 1702,
+            "ago": 549,
+            "sep": 2316,
+            "oct": 1447,
+            "nov": 640,
+            "dec": 586
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 1224,
+            "feb": 1595,
+            "mar": 2801,
+            "abr": 132,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ]
   },
   {
     "name": "Vivienda",
     "shortname": "Vivienda",
+    "description": "El derecho de acceso a una vivienda protege una necesidad básica de las personas, imprescindible para vivir una vida con dignidad y seguridad. La ausencia de ésta afecta al desarrollo pleno de los derechos de las personas y a las necesidades de las familias.",
+    "index": "22",
     "gender": {
-      "male": 1506,
-      "female": 1032
+      "male": 1492,
+      "female": 1026
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 149,
-      "ages35_44": 609,
-      "ages45_54": 1033,
-      "ages55More": 747,
-      "unknown": 0
+      "ages25_34": 216,
+      "ages35_44": 511,
+      "ages45_54": 1046,
+      "ages55More": 745
     },
-    "dates": []
+    "dates": [
+      [
+        {
+          "year": 2019,
+          "months": {
+            "gen": 0,
+            "feb": 0,
+            "mar": 0,
+            "abr": 0,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 27
+          }
+        },
+        {
+          "year": 2020,
+          "months": {
+            "gen": 27,
+            "feb": 30,
+            "mar": 42,
+            "abr": 65,
+            "may": 88,
+            "jun": 96,
+            "jul": 102,
+            "ago": 55,
+            "sep": 194,
+            "oct": 102,
+            "nov": 52,
+            "dec": 83
+          }
+        },
+        {
+          "year": 2021,
+          "months": {
+            "gen": 63,
+            "feb": 95,
+            "mar": 193,
+            "abr": 6,
+            "may": 0,
+            "jun": 0,
+            "jul": 0,
+            "ago": 0,
+            "sep": 0,
+            "oct": 0,
+            "nov": 0,
+            "dec": 0
+          }
+        }
+      ]
+    ]
   }
 ]

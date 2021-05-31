@@ -1,7 +1,8 @@
 <template>
   <section class="section-chart">
     <div class="section-chart__title">
-      <h3 > {{ title }}</h3>    
+      <h3 > {{ title }}</h3>
+      <p> {{ aclarations }}</p>
     </div>
     <VueApexCharts 
       height='500px'
@@ -19,6 +20,7 @@
     name: 'SectionChart',
     props: {
         title: String,
+        aclarations: String,
         chartData: Array,
         chartOptions: Object
     },
@@ -47,6 +49,12 @@
     padding: 0px 25px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-chart .section-chart__title p{
+    margin-top: 15px;
   }
 
   .section-chart .section-chart__chart {

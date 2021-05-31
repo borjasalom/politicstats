@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import topics from '@/assets/json/themes.json'
+  import topics from '@/assets/json/topicsApp.json'
   import SectionList from '@/components/SectionList.vue'
 
   export default {

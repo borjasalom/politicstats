@@ -6,6 +6,8 @@
     
     <SectionChart
       :title="'¿Sobre que temáticas preguntan más ' + group.shortname + '?'"
+      aclarations="Hay que tener en cuenta que la escala del eje Y no es la misma en 
+      todos los Grupos Parlamentarios"
       :chartData='topicsData'
       :chartOptions='topicsOptions'
     />

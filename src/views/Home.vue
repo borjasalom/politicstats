@@ -29,26 +29,28 @@
 <script>
   import Header from '@/components/Header.vue'
   import SectionChart from '@/components/SectionChart.vue'
-  
   import { homeTopicsChart, homeGenderChart, homeAgesChart } from '@/assets/js/charts.js'
-
 
   export default {
     name: 'Home', 
     data: function(){
       return {
+        // Header Information
         title: 'Preguntas Parlamentarias',
-        subTitle: 'Gráficas sobre',
-        description: 'Recopilamos datos oficiales sobre cada una de las preguntas que realizan\
-        los diputados al gobierno en el parlamento y te los facilitamos con gráficas de\
+        subTitle: 'Datos sobre',
+        description: 'Recopilamos información oficial sobre cada una de las preguntas que realizan\
+        los diputados al gobierno en el parlamento y te la facilitamos con gráficas de\
         forma totalmente neutral.',
 
+        // Topics Chart
         topicsData: homeTopicsChart.series,
         topicsOptions: homeTopicsChart.chartOptions,
 
+        // Gender Chart
         genderData: homeGenderChart.series,
         genderOptions: homeGenderChart.chartOptions,
 
+        // Age Chart
         agesData: homeAgesChart.series,
         agesOptions: homeAgesChart.chartOptions
       } 

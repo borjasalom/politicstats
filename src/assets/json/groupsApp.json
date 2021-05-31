@@ -1,21 +1,20 @@
 [
   {
     "name": "Grupo Parlamentario Ciudadanos",
-    "shortname": "CS",
-    "index": 0,
+    "shortname": "GCs",
+    "index": "0",
     "color": "#FF6D23",
-    "deputies": 11,
+    "deputies": 9,
     "gender": {
-      "male": 6,
-      "female": 5
+      "male": 5,
+      "female": 4
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 0,
-      "ages35_44": 6,
+      "ages35_44": 5,
       "ages45_54": 3,
-      "ages55More": 2,
-      "unknown": 0
+      "ages55More": 1
     },
     "topics": [
       {
@@ -72,21 +71,20 @@
   },
   {
     "name": "Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común",
-    "shortname": "UP",
-    "index": 1,
+    "shortname": "GCUP-EC-GC",
+    "index": "1",
     "color": "#724C96",
-    "deputies": 38,
+    "deputies": 35,
     "gender": {
-      "male": 17,
-      "female": 21
+      "male": 15,
+      "female": 20
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 4,
-      "ages35_44": 15,
-      "ages45_54": 8,
-      "ages55More": 11,
-      "unknown": 0
+      "ages35_44": 14,
+      "ages45_54": 6,
+      "ages55More": 11
     },
     "topics": [
       {
@@ -143,8 +141,8 @@
   },
   {
     "name": "Grupo Parlamentario Euskal Herria Bildu",
-    "shortname": "Bildu",
-    "index": 2,
+    "shortname": "GEH Bildu",
+    "index": "2",
     "color": "#99C445",
     "deputies": 5,
     "gender": {
@@ -156,8 +154,7 @@
       "ages25_34": 0,
       "ages35_44": 1,
       "ages45_54": 1,
-      "ages55More": 3,
-      "unknown": 0
+      "ages55More": 3
     },
     "topics": [
       {
@@ -214,8 +211,8 @@
   },
   {
     "name": "Grupo Parlamentario Mixto",
-    "shortname": "Grupo Mixto",
-    "index": 3,
+    "shortname": "GMx",
+    "index": "3",
     "color": "#6B666B",
     "deputies": 10,
     "gender": {
@@ -227,8 +224,7 @@
       "ages25_34": 0,
       "ages35_44": 4,
       "ages45_54": 1,
-      "ages55More": 5,
-      "unknown": 0
+      "ages55More": 5
     },
     "topics": [
       {
@@ -285,21 +281,20 @@
   },
   {
     "name": "Grupo Parlamentario Plural",
-    "shortname": "Grupo Plural",
-    "index": 4,
+    "shortname": "GPlu",
+    "index": "4",
     "color": "#201D1D",
-    "deputies": 14,
+    "deputies": 12,
     "gender": {
-      "male": 8,
-      "female": 6
+      "male": 7,
+      "female": 5
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 1,
       "ages35_44": 4,
-      "ages45_54": 3,
-      "ages55More": 6,
-      "unknown": 0
+      "ages45_54": 2,
+      "ages55More": 5
     },
     "topics": [
       {
@@ -356,21 +351,20 @@
   },
   {
     "name": "Grupo Parlamentario Popular",
-    "shortname": "PP",
-    "index": 5,
+    "shortname": "GP",
+    "index": "5",
     "color": "#2F8BBC",
-    "deputies": 90,
+    "deputies": 88,
     "gender": {
       "male": 51,
-      "female": 39
+      "female": 37
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 4,
-      "ages35_44": 23,
-      "ages45_54": 31,
-      "ages55More": 32,
-      "unknown": 0
+      "ages35_44": 20,
+      "ages45_54": 32,
+      "ages55More": 32
     },
     "topics": [
       {
@@ -427,8 +421,8 @@
   },
   {
     "name": "Grupo Parlamentario Republicano",
-    "shortname": "ERC",
-    "index": 6,
+    "shortname": "GR",
+    "index": "6",
     "color": "#F1AA2B",
     "deputies": 13,
     "gender": {
@@ -437,11 +431,10 @@
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 2,
+      "ages25_34": 3,
       "ages35_44": 2,
       "ages45_54": 5,
-      "ages55More": 4,
-      "unknown": 0
+      "ages55More": 3
     },
     "topics": [
       {
@@ -498,21 +491,20 @@
   },
   {
     "name": "Grupo Parlamentario Socialista",
-    "shortname": "PSOE",
-    "index": 7,
+    "shortname": "GS",
+    "index": "7",
     "color": "#E31A22",
-    "deputies": 141,
+    "deputies": 120,
     "gender": {
-      "male": 73,
-      "female": 68
+      "male": 61,
+      "female": 59
     },
     "ages": {
       "ages18_24": 0,
-      "ages25_34": 10,
-      "ages35_44": 32,
-      "ages45_54": 49,
-      "ages55More": 50,
-      "unknown": 0
+      "ages25_34": 9,
+      "ages35_44": 26,
+      "ages45_54": 46,
+      "ages55More": 39
     },
     "topics": [
       {
@@ -569,21 +561,20 @@
   },
   {
     "name": "Grupo Parlamentario VOX",
-    "shortname": "VOX",
-    "index": 8,
+    "shortname": "GVOX",
+    "index": "8",
     "color": "#50BB3C",
-    "deputies": 54,
+    "deputies": 52,
     "gender": {
-      "male": 39,
+      "male": 37,
       "female": 15
     },
     "ages": {
       "ages18_24": 0,
       "ages25_34": 4,
-      "ages35_44": 9,
+      "ages35_44": 7,
       "ages45_54": 20,
-      "ages55More": 21,
-      "unknown": 0
+      "ages55More": 21
     },
     "topics": [
       {
@@ -640,8 +631,8 @@
   },
   {
     "name": "Grupo Parlamentario Vasco (EAJ-PNV)",
-    "shortname": "PNV",
-    "index": 9,
+    "shortname": "EAJ-PNV",
+    "index": "9",
     "color": "#55796F",
     "deputies": 6,
     "gender": {
@@ -653,8 +644,7 @@
       "ages25_34": 0,
       "ages35_44": 0,
       "ages45_54": 2,
-      "ages55More": 4,
-      "unknown": 0
+      "ages55More": 4
     },
     "topics": [
       {
