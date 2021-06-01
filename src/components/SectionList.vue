@@ -33,7 +33,7 @@
   .section-list{
     width: 90%;
     padding: 50px;
-    margin-top: 50px;
+    margin: 50px 0px;
 
     background-color: white;
 

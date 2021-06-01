@@ -2,17 +2,19 @@
   <div id="app">
     <Nav />
     <router-view/>
+    <Footer />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Nav from '@/components/Nav.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
@@ -21,7 +23,7 @@ export default {
   :root{
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-
+    
     --primary-color: #6C63FF;
     --secondary-color: #FF6584;
     --light-color: #FFFFFF;
@@ -66,6 +68,7 @@ export default {
 
   .main {
     width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-flow: column;
     align-items: center;
