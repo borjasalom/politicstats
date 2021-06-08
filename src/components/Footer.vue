@@ -6,8 +6,8 @@
       <a href="https://github.com/borjasalom/preguntas-parlamentarias">Código Github</a>
     </section>
     <section class="footer__colaboraciones">
-      <h5>Agradecimiento</h5>
-      <img src="https://tipiciudadano.es/img/logo-politicalwatch.png" alt="">
+      <h5>Contacto</h5>
+      <a href="#">preguntas.parlamentarias@gmail.com</a>
     </section>
   </footer>
 </template>

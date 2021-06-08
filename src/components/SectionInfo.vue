@@ -5,6 +5,7 @@
       <h4>{{ section.title}}</h4>
       <p v-for="parraf in section.description" :key="parraf"> {{ parraf}} </p>
     </div>
+    <img :src="img" alt="">
   </section>
 </template>
 
@@ -14,7 +15,8 @@
     name: 'SectionChart',
     props: {
         title: String,
-        sections: Array
+        sections: Array,
+        img: String
     },
   }
 </script>

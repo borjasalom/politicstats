@@ -84,7 +84,7 @@ let ageChartConf = {
     title: { text: 'Numero Diputados' },
   },
   xaxis: {
-    categories: ['25 - 34', '35 - 44', '45 - 55', '55 <'],
+    categories: ['25 - 34', '35 - 44', '45 - 55', '< 55'],
     labels: {
       style: { fontSize: '12px' }
     }

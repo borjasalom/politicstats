@@ -54,16 +54,23 @@
 
 
       let topicGenderData = [
-        parseFloat((topic[param].gender.female / 167).toFixed(2)),
-        parseFloat((topic[param].gender.male / 215).toFixed(2)),
+        parseFloat((topic[param].gender.female / 197).toFixed(2)),
+        parseFloat((topic[param].gender.male / 154).toFixed(2)),
       ];
 
       let topicAgesData = [
         (topic[param].ages.ages25_34 / 25).toFixed(2),
-        (topic[param].ages.ages35_44 / 96).toFixed(2),
-        (topic[param].ages.ages45_54 / 123).toFixed(2),
-        (topic[param].ages.ages55More / 138).toFixed(2),
+        (topic[param].ages.ages35_44 / 83).toFixed(2),
+        (topic[param].ages.ages45_54 / 118).toFixed(2),
+        (topic[param].ages.ages55More / 124).toFixed(2),
       ]
+
+      /* let topicAgesData = [
+        (topic[param].ages.ages25_34 / 1).toFixed(2),
+        (topic[param].ages.ages35_44 / 1).toFixed(2),
+        (topic[param].ages.ages45_54 / 1).toFixed(2),
+        (topic[param].ages.ages55More / 1).toFixed(2),
+      ] */
 
       return {
         topic: topic[param],
